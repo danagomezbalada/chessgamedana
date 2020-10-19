@@ -32,70 +32,70 @@ Partial Class Form1
         Me.Captures2 = New System.Windows.Forms.TextBox()
         Me.LabelCaptures = New System.Windows.Forms.Label()
         Me.Boto_Resultats = New System.Windows.Forms.Button()
-        Me.CuadreClar29 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur30 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar30 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur31 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar31 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur32 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar32 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur29 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur25 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar26 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur26 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar27 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur27 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar28 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur28 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar25 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar21 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur22 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar22 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur23 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar23 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur24 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar24 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur21 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur17 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar18 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur18 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar19 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur19 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar20 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur20 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar17 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar13 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur14 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar14 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur15 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar15 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur16 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar16 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur13 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur9 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar10 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur10 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar11 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur11 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar12 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur12 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar9 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar5 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur6 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar6 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur7 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar7 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur8 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar8 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur5 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur1 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar2 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur2 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar3 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur3 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar4 = New System.Windows.Forms.PictureBox()
-        Me.CuadreObscur4 = New System.Windows.Forms.PictureBox()
-        Me.CuadreClar1 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre7 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre6 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre5 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre4 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre3 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre2 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre1 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre8 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre15 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre14 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre13 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre12 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre11 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre10 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre9 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre16 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre23 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre22 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre21 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre20 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre19 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre18 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre17 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre24 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre31 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre30 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre29 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre28 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre27 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre26 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre25 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre32 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre39 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre38 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre37 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre36 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre35 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre34 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre33 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre40 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre47 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre46 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre45 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre44 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre43 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre42 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre41 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre48 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre55 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre54 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre53 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre52 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre51 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre50 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre49 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre56 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre63 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre62 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre61 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre60 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre59 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre58 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre57 = New System.Windows.Forms.PictureBox()
+        Me.Cuadre64 = New System.Windows.Forms.PictureBox()
         Me.PeoBlanc1 = New System.Windows.Forms.PictureBox()
         Me.PeoBlanc2 = New System.Windows.Forms.PictureBox()
         Me.PeoBlanc3 = New System.Windows.Forms.PictureBox()
@@ -128,70 +128,70 @@ Partial Class Form1
         Me.AlfilNegre1 = New System.Windows.Forms.PictureBox()
         Me.CavallNegre1 = New System.Windows.Forms.PictureBox()
         Me.TorreNegre1 = New System.Windows.Forms.PictureBox()
-        CType(Me.CuadreClar29, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur30, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar30, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur31, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar31, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur32, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar32, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur29, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur25, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar26, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur26, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar27, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur27, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar28, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur28, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar25, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar21, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur22, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar22, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur23, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar23, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur24, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar24, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur21, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar19, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur19, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar20, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur20, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreObscur4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CuadreClar1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre23, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre22, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre21, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre24, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre31, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre30, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre29, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre28, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre27, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre26, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre25, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre32, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre39, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre38, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre37, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre36, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre35, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre34, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre33, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre40, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre47, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre46, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre45, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre44, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre43, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre42, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre41, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre48, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre55, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre54, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre53, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre52, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre51, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre50, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre49, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre56, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre63, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre62, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre61, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre60, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre59, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre58, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre57, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Cuadre64, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PeoBlanc1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PeoBlanc2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PeoBlanc3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -265,24 +265,26 @@ Partial Class Form1
         'Label_Jug1
         '
         Me.Label_Jug1.AutoSize = True
+        Me.Label_Jug1.BackColor = System.Drawing.Color.Transparent
         Me.Label_Jug1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label_Jug1.ForeColor = System.Drawing.SystemColors.Control
         Me.Label_Jug1.Location = New System.Drawing.Point(765, 454)
         Me.Label_Jug1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label_Jug1.Name = "Label_Jug1"
-        Me.Label_Jug1.Size = New System.Drawing.Size(94, 24)
+        Me.Label_Jug1.Size = New System.Drawing.Size(74, 18)
         Me.Label_Jug1.TabIndex = 75
         Me.Label_Jug1.Text = "Jugador 1"
         '
         'Label_Jug2
         '
         Me.Label_Jug2.AutoSize = True
+        Me.Label_Jug2.BackColor = System.Drawing.Color.Transparent
         Me.Label_Jug2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label_Jug2.ForeColor = System.Drawing.SystemColors.Control
         Me.Label_Jug2.Location = New System.Drawing.Point(990, 454)
         Me.Label_Jug2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label_Jug2.Name = "Label_Jug2"
-        Me.Label_Jug2.Size = New System.Drawing.Size(94, 24)
+        Me.Label_Jug2.Size = New System.Drawing.Size(74, 18)
         Me.Label_Jug2.TabIndex = 76
         Me.Label_Jug2.Text = "Jugador 2"
         '
@@ -293,7 +295,7 @@ Partial Class Form1
         Me.Captures1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Captures1.Name = "Captures1"
         Me.Captures1.ReadOnly = True
-        Me.Captures1.Size = New System.Drawing.Size(64, 41)
+        Me.Captures1.Size = New System.Drawing.Size(64, 35)
         Me.Captures1.TabIndex = 77
         '
         'Captures2
@@ -303,7 +305,7 @@ Partial Class Form1
         Me.Captures2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Captures2.Name = "Captures2"
         Me.Captures2.ReadOnly = True
-        Me.Captures2.Size = New System.Drawing.Size(64, 41)
+        Me.Captures2.Size = New System.Drawing.Size(64, 35)
         Me.Captures2.TabIndex = 78
         '
         'LabelCaptures
@@ -314,7 +316,7 @@ Partial Class Form1
         Me.LabelCaptures.Location = New System.Drawing.Point(875, 410)
         Me.LabelCaptures.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LabelCaptures.Name = "LabelCaptures"
-        Me.LabelCaptures.Size = New System.Drawing.Size(92, 25)
+        Me.LabelCaptures.Size = New System.Drawing.Size(74, 20)
         Me.LabelCaptures.TabIndex = 79
         Me.LabelCaptures.Text = "Captures"
         '
@@ -330,718 +332,718 @@ Partial Class Form1
         Me.Boto_Resultats.Text = "Resultats"
         Me.Boto_Resultats.UseVisualStyleBackColor = False
         '
-        'CuadreClar29
-        '
-        Me.CuadreClar29.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar29.Location = New System.Drawing.Point(118, 554)
-        Me.CuadreClar29.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar29.Name = "CuadreClar29"
-        Me.CuadreClar29.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar29.TabIndex = 71
-        Me.CuadreClar29.TabStop = False
-        Me.CuadreClar29.Tag = "cuadre"
-        '
-        'CuadreObscur30
-        '
-        Me.CuadreObscur30.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur30.Location = New System.Drawing.Point(198, 554)
-        Me.CuadreObscur30.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur30.Name = "CuadreObscur30"
-        Me.CuadreObscur30.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur30.TabIndex = 70
-        Me.CuadreObscur30.TabStop = False
-        Me.CuadreObscur30.Tag = "cuadre"
-        '
-        'CuadreClar30
-        '
-        Me.CuadreClar30.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar30.Location = New System.Drawing.Point(273, 554)
-        Me.CuadreClar30.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar30.Name = "CuadreClar30"
-        Me.CuadreClar30.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar30.TabIndex = 69
-        Me.CuadreClar30.TabStop = False
-        Me.CuadreClar30.Tag = "cuadre"
-        '
-        'CuadreObscur31
-        '
-        Me.CuadreObscur31.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur31.Location = New System.Drawing.Point(348, 554)
-        Me.CuadreObscur31.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur31.Name = "CuadreObscur31"
-        Me.CuadreObscur31.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur31.TabIndex = 68
-        Me.CuadreObscur31.TabStop = False
-        Me.CuadreObscur31.Tag = "cuadre"
-        '
-        'CuadreClar31
-        '
-        Me.CuadreClar31.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar31.Location = New System.Drawing.Point(423, 554)
-        Me.CuadreClar31.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar31.Name = "CuadreClar31"
-        Me.CuadreClar31.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar31.TabIndex = 67
-        Me.CuadreClar31.TabStop = False
-        Me.CuadreClar31.Tag = "cuadre"
-        '
-        'CuadreObscur32
-        '
-        Me.CuadreObscur32.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur32.Location = New System.Drawing.Point(498, 554)
-        Me.CuadreObscur32.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur32.Name = "CuadreObscur32"
-        Me.CuadreObscur32.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur32.TabIndex = 66
-        Me.CuadreObscur32.TabStop = False
-        Me.CuadreObscur32.Tag = "cuadre"
-        '
-        'CuadreClar32
-        '
-        Me.CuadreClar32.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar32.Location = New System.Drawing.Point(578, 554)
-        Me.CuadreClar32.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar32.Name = "CuadreClar32"
-        Me.CuadreClar32.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar32.TabIndex = 65
-        Me.CuadreClar32.TabStop = False
-        Me.CuadreClar32.Tag = "cuadre"
-        '
-        'CuadreObscur29
-        '
-        Me.CuadreObscur29.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur29.Location = New System.Drawing.Point(43, 554)
-        Me.CuadreObscur29.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur29.Name = "CuadreObscur29"
-        Me.CuadreObscur29.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur29.TabIndex = 63
-        Me.CuadreObscur29.TabStop = False
-        Me.CuadreObscur29.Tag = "cuadre"
-        '
-        'CuadreObscur25
-        '
-        Me.CuadreObscur25.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur25.Location = New System.Drawing.Point(118, 477)
-        Me.CuadreObscur25.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur25.Name = "CuadreObscur25"
-        Me.CuadreObscur25.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur25.TabIndex = 62
-        Me.CuadreObscur25.TabStop = False
-        Me.CuadreObscur25.Tag = "cuadre"
-        '
-        'CuadreClar26
-        '
-        Me.CuadreClar26.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar26.Location = New System.Drawing.Point(198, 477)
-        Me.CuadreClar26.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar26.Name = "CuadreClar26"
-        Me.CuadreClar26.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar26.TabIndex = 61
-        Me.CuadreClar26.TabStop = False
-        Me.CuadreClar26.Tag = "cuadre"
-        '
-        'CuadreObscur26
-        '
-        Me.CuadreObscur26.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur26.Location = New System.Drawing.Point(273, 477)
-        Me.CuadreObscur26.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur26.Name = "CuadreObscur26"
-        Me.CuadreObscur26.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur26.TabIndex = 60
-        Me.CuadreObscur26.TabStop = False
-        Me.CuadreObscur26.Tag = "cuadre"
-        '
-        'CuadreClar27
-        '
-        Me.CuadreClar27.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar27.Location = New System.Drawing.Point(348, 477)
-        Me.CuadreClar27.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar27.Name = "CuadreClar27"
-        Me.CuadreClar27.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar27.TabIndex = 59
-        Me.CuadreClar27.TabStop = False
-        Me.CuadreClar27.Tag = "cuadre"
-        '
-        'CuadreObscur27
-        '
-        Me.CuadreObscur27.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur27.Location = New System.Drawing.Point(423, 477)
-        Me.CuadreObscur27.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur27.Name = "CuadreObscur27"
-        Me.CuadreObscur27.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur27.TabIndex = 58
-        Me.CuadreObscur27.TabStop = False
-        Me.CuadreObscur27.Tag = "cuadre"
-        '
-        'CuadreClar28
-        '
-        Me.CuadreClar28.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar28.Location = New System.Drawing.Point(498, 477)
-        Me.CuadreClar28.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar28.Name = "CuadreClar28"
-        Me.CuadreClar28.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar28.TabIndex = 57
-        Me.CuadreClar28.TabStop = False
-        Me.CuadreClar28.Tag = "cuadre"
-        '
-        'CuadreObscur28
-        '
-        Me.CuadreObscur28.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur28.InitialImage = Nothing
-        Me.CuadreObscur28.Location = New System.Drawing.Point(578, 477)
-        Me.CuadreObscur28.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur28.Name = "CuadreObscur28"
-        Me.CuadreObscur28.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.CuadreObscur28.TabIndex = 56
-        Me.CuadreObscur28.TabStop = False
-        Me.CuadreObscur28.Tag = "cuadre"
-        '
-        'CuadreClar25
-        '
-        Me.CuadreClar25.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar25.Location = New System.Drawing.Point(43, 477)
-        Me.CuadreClar25.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar25.Name = "CuadreClar25"
-        Me.CuadreClar25.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar25.TabIndex = 54
-        Me.CuadreClar25.TabStop = False
-        Me.CuadreClar25.Tag = "cuadre"
-        '
-        'CuadreClar21
-        '
-        Me.CuadreClar21.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar21.Location = New System.Drawing.Point(118, 400)
-        Me.CuadreClar21.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar21.Name = "CuadreClar21"
-        Me.CuadreClar21.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar21.TabIndex = 53
-        Me.CuadreClar21.TabStop = False
-        Me.CuadreClar21.Tag = "cuadre"
-        '
-        'CuadreObscur22
-        '
-        Me.CuadreObscur22.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur22.Location = New System.Drawing.Point(198, 400)
-        Me.CuadreObscur22.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur22.Name = "CuadreObscur22"
-        Me.CuadreObscur22.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur22.TabIndex = 52
-        Me.CuadreObscur22.TabStop = False
-        Me.CuadreObscur22.Tag = "cuadre"
-        '
-        'CuadreClar22
-        '
-        Me.CuadreClar22.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar22.Location = New System.Drawing.Point(273, 400)
-        Me.CuadreClar22.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar22.Name = "CuadreClar22"
-        Me.CuadreClar22.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar22.TabIndex = 51
-        Me.CuadreClar22.TabStop = False
-        Me.CuadreClar22.Tag = "cuadre"
-        '
-        'CuadreObscur23
-        '
-        Me.CuadreObscur23.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur23.Location = New System.Drawing.Point(348, 400)
-        Me.CuadreObscur23.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur23.Name = "CuadreObscur23"
-        Me.CuadreObscur23.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur23.TabIndex = 50
-        Me.CuadreObscur23.TabStop = False
-        Me.CuadreObscur23.Tag = "cuadre"
-        '
-        'CuadreClar23
-        '
-        Me.CuadreClar23.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar23.Location = New System.Drawing.Point(423, 400)
-        Me.CuadreClar23.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar23.Name = "CuadreClar23"
-        Me.CuadreClar23.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar23.TabIndex = 49
-        Me.CuadreClar23.TabStop = False
-        Me.CuadreClar23.Tag = "cuadre"
-        '
-        'CuadreObscur24
-        '
-        Me.CuadreObscur24.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur24.Location = New System.Drawing.Point(498, 400)
-        Me.CuadreObscur24.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur24.Name = "CuadreObscur24"
-        Me.CuadreObscur24.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur24.TabIndex = 48
-        Me.CuadreObscur24.TabStop = False
-        Me.CuadreObscur24.Tag = "cuadre"
-        '
-        'CuadreClar24
-        '
-        Me.CuadreClar24.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar24.Location = New System.Drawing.Point(578, 400)
-        Me.CuadreClar24.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar24.Name = "CuadreClar24"
-        Me.CuadreClar24.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar24.TabIndex = 47
-        Me.CuadreClar24.TabStop = False
-        Me.CuadreClar24.Tag = "cuadre"
-        '
-        'CuadreObscur21
-        '
-        Me.CuadreObscur21.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur21.Location = New System.Drawing.Point(43, 400)
-        Me.CuadreObscur21.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur21.Name = "CuadreObscur21"
-        Me.CuadreObscur21.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur21.TabIndex = 45
-        Me.CuadreObscur21.TabStop = False
-        Me.CuadreObscur21.Tag = "cuadre"
-        '
-        'CuadreObscur17
-        '
-        Me.CuadreObscur17.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur17.Location = New System.Drawing.Point(118, 324)
-        Me.CuadreObscur17.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur17.Name = "CuadreObscur17"
-        Me.CuadreObscur17.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur17.TabIndex = 44
-        Me.CuadreObscur17.TabStop = False
-        Me.CuadreObscur17.Tag = "cuadre"
-        '
-        'CuadreClar18
-        '
-        Me.CuadreClar18.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar18.Location = New System.Drawing.Point(198, 324)
-        Me.CuadreClar18.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar18.Name = "CuadreClar18"
-        Me.CuadreClar18.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar18.TabIndex = 43
-        Me.CuadreClar18.TabStop = False
-        Me.CuadreClar18.Tag = "cuadre"
-        '
-        'CuadreObscur18
-        '
-        Me.CuadreObscur18.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur18.Location = New System.Drawing.Point(273, 324)
-        Me.CuadreObscur18.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur18.Name = "CuadreObscur18"
-        Me.CuadreObscur18.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur18.TabIndex = 42
-        Me.CuadreObscur18.TabStop = False
-        Me.CuadreObscur18.Tag = "cuadre"
-        '
-        'CuadreClar19
-        '
-        Me.CuadreClar19.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar19.Location = New System.Drawing.Point(348, 324)
-        Me.CuadreClar19.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar19.Name = "CuadreClar19"
-        Me.CuadreClar19.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar19.TabIndex = 41
-        Me.CuadreClar19.TabStop = False
-        Me.CuadreClar19.Tag = "cuadre"
-        '
-        'CuadreObscur19
-        '
-        Me.CuadreObscur19.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur19.Location = New System.Drawing.Point(423, 324)
-        Me.CuadreObscur19.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur19.Name = "CuadreObscur19"
-        Me.CuadreObscur19.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur19.TabIndex = 40
-        Me.CuadreObscur19.TabStop = False
-        Me.CuadreObscur19.Tag = "cuadre"
-        '
-        'CuadreClar20
-        '
-        Me.CuadreClar20.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar20.Location = New System.Drawing.Point(498, 324)
-        Me.CuadreClar20.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar20.Name = "CuadreClar20"
-        Me.CuadreClar20.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar20.TabIndex = 39
-        Me.CuadreClar20.TabStop = False
-        Me.CuadreClar20.Tag = "cuadre"
-        '
-        'CuadreObscur20
-        '
-        Me.CuadreObscur20.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur20.Location = New System.Drawing.Point(578, 324)
-        Me.CuadreObscur20.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur20.Name = "CuadreObscur20"
-        Me.CuadreObscur20.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur20.TabIndex = 38
-        Me.CuadreObscur20.TabStop = False
-        Me.CuadreObscur20.Tag = "cuadre"
-        '
-        'CuadreClar17
-        '
-        Me.CuadreClar17.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar17.Location = New System.Drawing.Point(43, 324)
-        Me.CuadreClar17.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar17.Name = "CuadreClar17"
-        Me.CuadreClar17.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar17.TabIndex = 36
-        Me.CuadreClar17.TabStop = False
-        Me.CuadreClar17.Tag = "cuadre"
-        '
-        'CuadreClar13
-        '
-        Me.CuadreClar13.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar13.Location = New System.Drawing.Point(118, 248)
-        Me.CuadreClar13.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar13.Name = "CuadreClar13"
-        Me.CuadreClar13.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar13.TabIndex = 35
-        Me.CuadreClar13.TabStop = False
-        Me.CuadreClar13.Tag = "cuadre"
-        '
-        'CuadreObscur14
-        '
-        Me.CuadreObscur14.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur14.Location = New System.Drawing.Point(198, 248)
-        Me.CuadreObscur14.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur14.Name = "CuadreObscur14"
-        Me.CuadreObscur14.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur14.TabIndex = 34
-        Me.CuadreObscur14.TabStop = False
-        Me.CuadreObscur14.Tag = "cuadre"
-        '
-        'CuadreClar14
-        '
-        Me.CuadreClar14.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar14.Location = New System.Drawing.Point(273, 248)
-        Me.CuadreClar14.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar14.Name = "CuadreClar14"
-        Me.CuadreClar14.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar14.TabIndex = 33
-        Me.CuadreClar14.TabStop = False
-        Me.CuadreClar14.Tag = "cuadre"
-        '
-        'CuadreObscur15
-        '
-        Me.CuadreObscur15.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur15.Location = New System.Drawing.Point(348, 248)
-        Me.CuadreObscur15.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur15.Name = "CuadreObscur15"
-        Me.CuadreObscur15.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur15.TabIndex = 32
-        Me.CuadreObscur15.TabStop = False
-        Me.CuadreObscur15.Tag = "cuadre"
-        '
-        'CuadreClar15
-        '
-        Me.CuadreClar15.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar15.Location = New System.Drawing.Point(423, 248)
-        Me.CuadreClar15.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar15.Name = "CuadreClar15"
-        Me.CuadreClar15.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar15.TabIndex = 31
-        Me.CuadreClar15.TabStop = False
-        Me.CuadreClar15.Tag = "cuadre"
-        '
-        'CuadreObscur16
-        '
-        Me.CuadreObscur16.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur16.Location = New System.Drawing.Point(498, 248)
-        Me.CuadreObscur16.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur16.Name = "CuadreObscur16"
-        Me.CuadreObscur16.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur16.TabIndex = 30
-        Me.CuadreObscur16.TabStop = False
-        Me.CuadreObscur16.Tag = "cuadre"
-        '
-        'CuadreClar16
-        '
-        Me.CuadreClar16.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar16.Location = New System.Drawing.Point(578, 248)
-        Me.CuadreClar16.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar16.Name = "CuadreClar16"
-        Me.CuadreClar16.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar16.TabIndex = 29
-        Me.CuadreClar16.TabStop = False
-        Me.CuadreClar16.Tag = "cuadre"
-        '
-        'CuadreObscur13
-        '
-        Me.CuadreObscur13.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur13.Location = New System.Drawing.Point(43, 248)
-        Me.CuadreObscur13.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur13.Name = "CuadreObscur13"
-        Me.CuadreObscur13.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur13.TabIndex = 27
-        Me.CuadreObscur13.TabStop = False
-        Me.CuadreObscur13.Tag = "cuadre"
-        '
-        'CuadreObscur9
-        '
-        Me.CuadreObscur9.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur9.Location = New System.Drawing.Point(118, 171)
-        Me.CuadreObscur9.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur9.Name = "CuadreObscur9"
-        Me.CuadreObscur9.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur9.TabIndex = 26
-        Me.CuadreObscur9.TabStop = False
-        Me.CuadreObscur9.Tag = "cuadre"
-        '
-        'CuadreClar10
-        '
-        Me.CuadreClar10.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar10.Location = New System.Drawing.Point(198, 171)
-        Me.CuadreClar10.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar10.Name = "CuadreClar10"
-        Me.CuadreClar10.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar10.TabIndex = 25
-        Me.CuadreClar10.TabStop = False
-        Me.CuadreClar10.Tag = "cuadre"
-        '
-        'CuadreObscur10
-        '
-        Me.CuadreObscur10.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur10.Location = New System.Drawing.Point(273, 171)
-        Me.CuadreObscur10.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur10.Name = "CuadreObscur10"
-        Me.CuadreObscur10.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur10.TabIndex = 24
-        Me.CuadreObscur10.TabStop = False
-        Me.CuadreObscur10.Tag = "cuadre"
-        '
-        'CuadreClar11
-        '
-        Me.CuadreClar11.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar11.Location = New System.Drawing.Point(348, 171)
-        Me.CuadreClar11.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar11.Name = "CuadreClar11"
-        Me.CuadreClar11.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar11.TabIndex = 23
-        Me.CuadreClar11.TabStop = False
-        Me.CuadreClar11.Tag = "cuadre"
-        '
-        'CuadreObscur11
-        '
-        Me.CuadreObscur11.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur11.Location = New System.Drawing.Point(423, 171)
-        Me.CuadreObscur11.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur11.Name = "CuadreObscur11"
-        Me.CuadreObscur11.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur11.TabIndex = 22
-        Me.CuadreObscur11.TabStop = False
-        Me.CuadreObscur11.Tag = "cuadre"
-        '
-        'CuadreClar12
-        '
-        Me.CuadreClar12.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar12.Location = New System.Drawing.Point(498, 171)
-        Me.CuadreClar12.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar12.Name = "CuadreClar12"
-        Me.CuadreClar12.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar12.TabIndex = 21
-        Me.CuadreClar12.TabStop = False
-        Me.CuadreClar12.Tag = "cuadre"
-        '
-        'CuadreObscur12
-        '
-        Me.CuadreObscur12.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur12.Location = New System.Drawing.Point(578, 171)
-        Me.CuadreObscur12.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur12.Name = "CuadreObscur12"
-        Me.CuadreObscur12.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur12.TabIndex = 20
-        Me.CuadreObscur12.TabStop = False
-        Me.CuadreObscur12.Tag = "cuadre"
-        '
-        'CuadreClar9
-        '
-        Me.CuadreClar9.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar9.Location = New System.Drawing.Point(43, 171)
-        Me.CuadreClar9.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar9.Name = "CuadreClar9"
-        Me.CuadreClar9.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar9.TabIndex = 18
-        Me.CuadreClar9.TabStop = False
-        Me.CuadreClar9.Tag = "cuadre"
-        '
-        'CuadreClar5
-        '
-        Me.CuadreClar5.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar5.Location = New System.Drawing.Point(118, 99)
-        Me.CuadreClar5.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar5.Name = "CuadreClar5"
-        Me.CuadreClar5.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar5.TabIndex = 17
-        Me.CuadreClar5.TabStop = False
-        Me.CuadreClar5.Tag = "cuadre"
-        '
-        'CuadreObscur6
-        '
-        Me.CuadreObscur6.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur6.Location = New System.Drawing.Point(198, 99)
-        Me.CuadreObscur6.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur6.Name = "CuadreObscur6"
-        Me.CuadreObscur6.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur6.TabIndex = 16
-        Me.CuadreObscur6.TabStop = False
-        Me.CuadreObscur6.Tag = "cuadre"
-        '
-        'CuadreClar6
-        '
-        Me.CuadreClar6.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar6.Location = New System.Drawing.Point(273, 99)
-        Me.CuadreClar6.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar6.Name = "CuadreClar6"
-        Me.CuadreClar6.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar6.TabIndex = 15
-        Me.CuadreClar6.TabStop = False
-        Me.CuadreClar6.Tag = "cuadre"
-        '
-        'CuadreObscur7
-        '
-        Me.CuadreObscur7.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur7.Location = New System.Drawing.Point(348, 99)
-        Me.CuadreObscur7.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur7.Name = "CuadreObscur7"
-        Me.CuadreObscur7.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur7.TabIndex = 14
-        Me.CuadreObscur7.TabStop = False
-        Me.CuadreObscur7.Tag = "cuadre"
-        '
-        'CuadreClar7
-        '
-        Me.CuadreClar7.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar7.Location = New System.Drawing.Point(423, 99)
-        Me.CuadreClar7.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar7.Name = "CuadreClar7"
-        Me.CuadreClar7.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar7.TabIndex = 13
-        Me.CuadreClar7.TabStop = False
-        Me.CuadreClar7.Tag = "cuadre"
-        '
-        'CuadreObscur8
-        '
-        Me.CuadreObscur8.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur8.Location = New System.Drawing.Point(498, 99)
-        Me.CuadreObscur8.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur8.Name = "CuadreObscur8"
-        Me.CuadreObscur8.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur8.TabIndex = 12
-        Me.CuadreObscur8.TabStop = False
-        Me.CuadreObscur8.Tag = "cuadre"
-        '
-        'CuadreClar8
-        '
-        Me.CuadreClar8.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar8.Location = New System.Drawing.Point(578, 99)
-        Me.CuadreClar8.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar8.Name = "CuadreClar8"
-        Me.CuadreClar8.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar8.TabIndex = 11
-        Me.CuadreClar8.TabStop = False
-        Me.CuadreClar8.Tag = "cuadre"
-        '
-        'CuadreObscur5
-        '
-        Me.CuadreObscur5.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur5.Location = New System.Drawing.Point(43, 99)
-        Me.CuadreObscur5.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur5.Name = "CuadreObscur5"
-        Me.CuadreObscur5.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur5.TabIndex = 9
-        Me.CuadreObscur5.TabStop = False
-        Me.CuadreObscur5.Tag = "cuadre"
-        '
-        'CuadreObscur1
-        '
-        Me.CuadreObscur1.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur1.Location = New System.Drawing.Point(118, 22)
-        Me.CuadreObscur1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur1.Name = "CuadreObscur1"
-        Me.CuadreObscur1.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur1.TabIndex = 8
-        Me.CuadreObscur1.TabStop = False
-        Me.CuadreObscur1.Tag = "cuadre"
-        '
-        'CuadreClar2
-        '
-        Me.CuadreClar2.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar2.Location = New System.Drawing.Point(198, 22)
-        Me.CuadreClar2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar2.Name = "CuadreClar2"
-        Me.CuadreClar2.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar2.TabIndex = 7
-        Me.CuadreClar2.TabStop = False
-        Me.CuadreClar2.Tag = "cuadre"
-        '
-        'CuadreObscur2
-        '
-        Me.CuadreObscur2.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur2.Location = New System.Drawing.Point(273, 22)
-        Me.CuadreObscur2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur2.Name = "CuadreObscur2"
-        Me.CuadreObscur2.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur2.TabIndex = 6
-        Me.CuadreObscur2.TabStop = False
-        Me.CuadreObscur2.Tag = "cuadre"
-        '
-        'CuadreClar3
-        '
-        Me.CuadreClar3.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar3.Location = New System.Drawing.Point(348, 22)
-        Me.CuadreClar3.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar3.Name = "CuadreClar3"
-        Me.CuadreClar3.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar3.TabIndex = 5
-        Me.CuadreClar3.TabStop = False
-        Me.CuadreClar3.Tag = "cuadre"
-        '
-        'CuadreObscur3
-        '
-        Me.CuadreObscur3.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur3.Location = New System.Drawing.Point(423, 22)
-        Me.CuadreObscur3.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur3.Name = "CuadreObscur3"
-        Me.CuadreObscur3.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur3.TabIndex = 4
-        Me.CuadreObscur3.TabStop = False
-        Me.CuadreObscur3.Tag = "cuadre"
-        '
-        'CuadreClar4
-        '
-        Me.CuadreClar4.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar4.Location = New System.Drawing.Point(498, 22)
-        Me.CuadreClar4.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar4.Name = "CuadreClar4"
-        Me.CuadreClar4.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar4.TabIndex = 3
-        Me.CuadreClar4.TabStop = False
-        Me.CuadreClar4.Tag = "cuadre"
-        '
-        'CuadreObscur4
-        '
-        Me.CuadreObscur4.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreObscur4.Location = New System.Drawing.Point(578, 22)
-        Me.CuadreObscur4.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreObscur4.Name = "CuadreObscur4"
-        Me.CuadreObscur4.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreObscur4.TabIndex = 2
-        Me.CuadreObscur4.TabStop = False
-        Me.CuadreObscur4.Tag = "cuadre"
-        '
-        'CuadreClar1
-        '
-        Me.CuadreClar1.BackColor = System.Drawing.Color.Transparent
-        Me.CuadreClar1.Location = New System.Drawing.Point(43, 22)
-        Me.CuadreClar1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
-        Me.CuadreClar1.Name = "CuadreClar1"
-        Me.CuadreClar1.Size = New System.Drawing.Size(70, 72)
-        Me.CuadreClar1.TabIndex = 0
-        Me.CuadreClar1.TabStop = False
-        Me.CuadreClar1.Tag = "cuadre"
+        'Cuadre7
+        '
+        Me.Cuadre7.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre7.Location = New System.Drawing.Point(126, 555)
+        Me.Cuadre7.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre7.Name = "Cuadre7"
+        Me.Cuadre7.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre7.TabIndex = 71
+        Me.Cuadre7.TabStop = False
+        Me.Cuadre7.Tag = "cuadre"
+        '
+        'Cuadre6
+        '
+        Me.Cuadre6.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre6.Location = New System.Drawing.Point(202, 555)
+        Me.Cuadre6.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre6.Name = "Cuadre6"
+        Me.Cuadre6.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre6.TabIndex = 70
+        Me.Cuadre6.TabStop = False
+        Me.Cuadre6.Tag = "cuadre"
+        '
+        'Cuadre5
+        '
+        Me.Cuadre5.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre5.Location = New System.Drawing.Point(278, 554)
+        Me.Cuadre5.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre5.Name = "Cuadre5"
+        Me.Cuadre5.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre5.TabIndex = 69
+        Me.Cuadre5.TabStop = False
+        Me.Cuadre5.Tag = "cuadre"
+        '
+        'Cuadre4
+        '
+        Me.Cuadre4.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre4.Location = New System.Drawing.Point(353, 554)
+        Me.Cuadre4.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre4.Name = "Cuadre4"
+        Me.Cuadre4.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre4.TabIndex = 68
+        Me.Cuadre4.TabStop = False
+        Me.Cuadre4.Tag = "cuadre"
+        '
+        'Cuadre3
+        '
+        Me.Cuadre3.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre3.Location = New System.Drawing.Point(428, 554)
+        Me.Cuadre3.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre3.Name = "Cuadre3"
+        Me.Cuadre3.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre3.TabIndex = 67
+        Me.Cuadre3.TabStop = False
+        Me.Cuadre3.Tag = "cuadre"
+        '
+        'Cuadre2
+        '
+        Me.Cuadre2.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre2.Location = New System.Drawing.Point(503, 554)
+        Me.Cuadre2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre2.Name = "Cuadre2"
+        Me.Cuadre2.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre2.TabIndex = 66
+        Me.Cuadre2.TabStop = False
+        Me.Cuadre2.Tag = "cuadre"
+        '
+        'Cuadre1
+        '
+        Me.Cuadre1.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre1.Location = New System.Drawing.Point(578, 554)
+        Me.Cuadre1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre1.Name = "Cuadre1"
+        Me.Cuadre1.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre1.TabIndex = 65
+        Me.Cuadre1.TabStop = False
+        Me.Cuadre1.Tag = "cuadre"
+        '
+        'Cuadre8
+        '
+        Me.Cuadre8.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre8.Location = New System.Drawing.Point(50, 556)
+        Me.Cuadre8.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre8.Name = "Cuadre8"
+        Me.Cuadre8.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre8.TabIndex = 63
+        Me.Cuadre8.TabStop = False
+        Me.Cuadre8.Tag = "cuadre"
+        '
+        'Cuadre15
+        '
+        Me.Cuadre15.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre15.Location = New System.Drawing.Point(126, 478)
+        Me.Cuadre15.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre15.Name = "Cuadre15"
+        Me.Cuadre15.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre15.TabIndex = 62
+        Me.Cuadre15.TabStop = False
+        Me.Cuadre15.Tag = "cuadre"
+        '
+        'Cuadre14
+        '
+        Me.Cuadre14.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre14.Location = New System.Drawing.Point(202, 478)
+        Me.Cuadre14.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre14.Name = "Cuadre14"
+        Me.Cuadre14.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre14.TabIndex = 61
+        Me.Cuadre14.TabStop = False
+        Me.Cuadre14.Tag = "cuadre"
+        '
+        'Cuadre13
+        '
+        Me.Cuadre13.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre13.Location = New System.Drawing.Point(278, 477)
+        Me.Cuadre13.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre13.Name = "Cuadre13"
+        Me.Cuadre13.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre13.TabIndex = 60
+        Me.Cuadre13.TabStop = False
+        Me.Cuadre13.Tag = "cuadre"
+        '
+        'Cuadre12
+        '
+        Me.Cuadre12.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre12.Location = New System.Drawing.Point(353, 477)
+        Me.Cuadre12.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre12.Name = "Cuadre12"
+        Me.Cuadre12.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre12.TabIndex = 59
+        Me.Cuadre12.TabStop = False
+        Me.Cuadre12.Tag = "cuadre"
+        '
+        'Cuadre11
+        '
+        Me.Cuadre11.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre11.Location = New System.Drawing.Point(428, 477)
+        Me.Cuadre11.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre11.Name = "Cuadre11"
+        Me.Cuadre11.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre11.TabIndex = 58
+        Me.Cuadre11.TabStop = False
+        Me.Cuadre11.Tag = "cuadre"
+        '
+        'Cuadre10
+        '
+        Me.Cuadre10.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre10.Location = New System.Drawing.Point(503, 477)
+        Me.Cuadre10.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre10.Name = "Cuadre10"
+        Me.Cuadre10.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre10.TabIndex = 57
+        Me.Cuadre10.TabStop = False
+        Me.Cuadre10.Tag = "cuadre"
+        '
+        'Cuadre9
+        '
+        Me.Cuadre9.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre9.InitialImage = Nothing
+        Me.Cuadre9.Location = New System.Drawing.Point(578, 477)
+        Me.Cuadre9.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre9.Name = "Cuadre9"
+        Me.Cuadre9.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Cuadre9.TabIndex = 56
+        Me.Cuadre9.TabStop = False
+        Me.Cuadre9.Tag = "cuadre"
+        '
+        'Cuadre16
+        '
+        Me.Cuadre16.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre16.Location = New System.Drawing.Point(50, 479)
+        Me.Cuadre16.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre16.Name = "Cuadre16"
+        Me.Cuadre16.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre16.TabIndex = 54
+        Me.Cuadre16.TabStop = False
+        Me.Cuadre16.Tag = "cuadre"
+        '
+        'Cuadre23
+        '
+        Me.Cuadre23.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre23.Location = New System.Drawing.Point(126, 401)
+        Me.Cuadre23.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre23.Name = "Cuadre23"
+        Me.Cuadre23.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre23.TabIndex = 53
+        Me.Cuadre23.TabStop = False
+        Me.Cuadre23.Tag = "cuadre"
+        '
+        'Cuadre22
+        '
+        Me.Cuadre22.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre22.Location = New System.Drawing.Point(202, 401)
+        Me.Cuadre22.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre22.Name = "Cuadre22"
+        Me.Cuadre22.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre22.TabIndex = 52
+        Me.Cuadre22.TabStop = False
+        Me.Cuadre22.Tag = "cuadre"
+        '
+        'Cuadre21
+        '
+        Me.Cuadre21.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre21.Location = New System.Drawing.Point(278, 400)
+        Me.Cuadre21.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre21.Name = "Cuadre21"
+        Me.Cuadre21.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre21.TabIndex = 51
+        Me.Cuadre21.TabStop = False
+        Me.Cuadre21.Tag = "cuadre"
+        '
+        'Cuadre20
+        '
+        Me.Cuadre20.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre20.Location = New System.Drawing.Point(353, 400)
+        Me.Cuadre20.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre20.Name = "Cuadre20"
+        Me.Cuadre20.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre20.TabIndex = 50
+        Me.Cuadre20.TabStop = False
+        Me.Cuadre20.Tag = "cuadre"
+        '
+        'Cuadre19
+        '
+        Me.Cuadre19.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre19.Location = New System.Drawing.Point(428, 400)
+        Me.Cuadre19.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre19.Name = "Cuadre19"
+        Me.Cuadre19.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre19.TabIndex = 49
+        Me.Cuadre19.TabStop = False
+        Me.Cuadre19.Tag = "cuadre"
+        '
+        'Cuadre18
+        '
+        Me.Cuadre18.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre18.Location = New System.Drawing.Point(503, 400)
+        Me.Cuadre18.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre18.Name = "Cuadre18"
+        Me.Cuadre18.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre18.TabIndex = 48
+        Me.Cuadre18.TabStop = False
+        Me.Cuadre18.Tag = "cuadre"
+        '
+        'Cuadre17
+        '
+        Me.Cuadre17.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre17.Location = New System.Drawing.Point(578, 400)
+        Me.Cuadre17.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre17.Name = "Cuadre17"
+        Me.Cuadre17.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre17.TabIndex = 47
+        Me.Cuadre17.TabStop = False
+        Me.Cuadre17.Tag = "cuadre"
+        '
+        'Cuadre24
+        '
+        Me.Cuadre24.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre24.Location = New System.Drawing.Point(50, 402)
+        Me.Cuadre24.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre24.Name = "Cuadre24"
+        Me.Cuadre24.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre24.TabIndex = 45
+        Me.Cuadre24.TabStop = False
+        Me.Cuadre24.Tag = "cuadre"
+        '
+        'Cuadre31
+        '
+        Me.Cuadre31.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre31.Location = New System.Drawing.Point(126, 325)
+        Me.Cuadre31.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre31.Name = "Cuadre31"
+        Me.Cuadre31.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre31.TabIndex = 44
+        Me.Cuadre31.TabStop = False
+        Me.Cuadre31.Tag = "cuadre"
+        '
+        'Cuadre30
+        '
+        Me.Cuadre30.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre30.Location = New System.Drawing.Point(202, 325)
+        Me.Cuadre30.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre30.Name = "Cuadre30"
+        Me.Cuadre30.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre30.TabIndex = 43
+        Me.Cuadre30.TabStop = False
+        Me.Cuadre30.Tag = "cuadre"
+        '
+        'Cuadre29
+        '
+        Me.Cuadre29.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre29.Location = New System.Drawing.Point(278, 324)
+        Me.Cuadre29.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre29.Name = "Cuadre29"
+        Me.Cuadre29.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre29.TabIndex = 42
+        Me.Cuadre29.TabStop = False
+        Me.Cuadre29.Tag = "cuadre"
+        '
+        'Cuadre28
+        '
+        Me.Cuadre28.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre28.Location = New System.Drawing.Point(353, 324)
+        Me.Cuadre28.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre28.Name = "Cuadre28"
+        Me.Cuadre28.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre28.TabIndex = 41
+        Me.Cuadre28.TabStop = False
+        Me.Cuadre28.Tag = "cuadre"
+        '
+        'Cuadre27
+        '
+        Me.Cuadre27.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre27.Location = New System.Drawing.Point(428, 324)
+        Me.Cuadre27.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre27.Name = "Cuadre27"
+        Me.Cuadre27.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre27.TabIndex = 40
+        Me.Cuadre27.TabStop = False
+        Me.Cuadre27.Tag = "cuadre"
+        '
+        'Cuadre26
+        '
+        Me.Cuadre26.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre26.Location = New System.Drawing.Point(503, 324)
+        Me.Cuadre26.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre26.Name = "Cuadre26"
+        Me.Cuadre26.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre26.TabIndex = 39
+        Me.Cuadre26.TabStop = False
+        Me.Cuadre26.Tag = "cuadre"
+        '
+        'Cuadre25
+        '
+        Me.Cuadre25.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre25.Location = New System.Drawing.Point(578, 324)
+        Me.Cuadre25.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre25.Name = "Cuadre25"
+        Me.Cuadre25.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre25.TabIndex = 38
+        Me.Cuadre25.TabStop = False
+        Me.Cuadre25.Tag = "cuadre"
+        '
+        'Cuadre32
+        '
+        Me.Cuadre32.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre32.Location = New System.Drawing.Point(50, 326)
+        Me.Cuadre32.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre32.Name = "Cuadre32"
+        Me.Cuadre32.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre32.TabIndex = 36
+        Me.Cuadre32.TabStop = False
+        Me.Cuadre32.Tag = "cuadre"
+        '
+        'Cuadre39
+        '
+        Me.Cuadre39.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre39.Location = New System.Drawing.Point(126, 249)
+        Me.Cuadre39.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre39.Name = "Cuadre39"
+        Me.Cuadre39.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre39.TabIndex = 35
+        Me.Cuadre39.TabStop = False
+        Me.Cuadre39.Tag = "cuadre"
+        '
+        'Cuadre38
+        '
+        Me.Cuadre38.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre38.Location = New System.Drawing.Point(202, 249)
+        Me.Cuadre38.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre38.Name = "Cuadre38"
+        Me.Cuadre38.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre38.TabIndex = 34
+        Me.Cuadre38.TabStop = False
+        Me.Cuadre38.Tag = "cuadre"
+        '
+        'Cuadre37
+        '
+        Me.Cuadre37.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre37.Location = New System.Drawing.Point(278, 248)
+        Me.Cuadre37.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre37.Name = "Cuadre37"
+        Me.Cuadre37.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre37.TabIndex = 33
+        Me.Cuadre37.TabStop = False
+        Me.Cuadre37.Tag = "cuadre"
+        '
+        'Cuadre36
+        '
+        Me.Cuadre36.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre36.Location = New System.Drawing.Point(353, 248)
+        Me.Cuadre36.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre36.Name = "Cuadre36"
+        Me.Cuadre36.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre36.TabIndex = 32
+        Me.Cuadre36.TabStop = False
+        Me.Cuadre36.Tag = "cuadre"
+        '
+        'Cuadre35
+        '
+        Me.Cuadre35.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre35.Location = New System.Drawing.Point(428, 248)
+        Me.Cuadre35.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre35.Name = "Cuadre35"
+        Me.Cuadre35.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre35.TabIndex = 31
+        Me.Cuadre35.TabStop = False
+        Me.Cuadre35.Tag = "cuadre"
+        '
+        'Cuadre34
+        '
+        Me.Cuadre34.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre34.Location = New System.Drawing.Point(503, 248)
+        Me.Cuadre34.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre34.Name = "Cuadre34"
+        Me.Cuadre34.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre34.TabIndex = 30
+        Me.Cuadre34.TabStop = False
+        Me.Cuadre34.Tag = "cuadre"
+        '
+        'Cuadre33
+        '
+        Me.Cuadre33.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre33.Location = New System.Drawing.Point(578, 248)
+        Me.Cuadre33.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre33.Name = "Cuadre33"
+        Me.Cuadre33.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre33.TabIndex = 29
+        Me.Cuadre33.TabStop = False
+        Me.Cuadre33.Tag = "cuadre"
+        '
+        'Cuadre40
+        '
+        Me.Cuadre40.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre40.Location = New System.Drawing.Point(50, 250)
+        Me.Cuadre40.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre40.Name = "Cuadre40"
+        Me.Cuadre40.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre40.TabIndex = 27
+        Me.Cuadre40.TabStop = False
+        Me.Cuadre40.Tag = "cuadre"
+        '
+        'Cuadre47
+        '
+        Me.Cuadre47.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre47.Location = New System.Drawing.Point(126, 172)
+        Me.Cuadre47.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre47.Name = "Cuadre47"
+        Me.Cuadre47.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre47.TabIndex = 26
+        Me.Cuadre47.TabStop = False
+        Me.Cuadre47.Tag = "cuadre"
+        '
+        'Cuadre46
+        '
+        Me.Cuadre46.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre46.Location = New System.Drawing.Point(202, 172)
+        Me.Cuadre46.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre46.Name = "Cuadre46"
+        Me.Cuadre46.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre46.TabIndex = 25
+        Me.Cuadre46.TabStop = False
+        Me.Cuadre46.Tag = "cuadre"
+        '
+        'Cuadre45
+        '
+        Me.Cuadre45.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre45.Location = New System.Drawing.Point(278, 171)
+        Me.Cuadre45.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre45.Name = "Cuadre45"
+        Me.Cuadre45.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre45.TabIndex = 24
+        Me.Cuadre45.TabStop = False
+        Me.Cuadre45.Tag = "cuadre"
+        '
+        'Cuadre44
+        '
+        Me.Cuadre44.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre44.Location = New System.Drawing.Point(353, 171)
+        Me.Cuadre44.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre44.Name = "Cuadre44"
+        Me.Cuadre44.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre44.TabIndex = 23
+        Me.Cuadre44.TabStop = False
+        Me.Cuadre44.Tag = "cuadre"
+        '
+        'Cuadre43
+        '
+        Me.Cuadre43.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre43.Location = New System.Drawing.Point(428, 171)
+        Me.Cuadre43.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre43.Name = "Cuadre43"
+        Me.Cuadre43.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre43.TabIndex = 22
+        Me.Cuadre43.TabStop = False
+        Me.Cuadre43.Tag = "cuadre"
+        '
+        'Cuadre42
+        '
+        Me.Cuadre42.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre42.Location = New System.Drawing.Point(503, 171)
+        Me.Cuadre42.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre42.Name = "Cuadre42"
+        Me.Cuadre42.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre42.TabIndex = 21
+        Me.Cuadre42.TabStop = False
+        Me.Cuadre42.Tag = "cuadre"
+        '
+        'Cuadre41
+        '
+        Me.Cuadre41.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre41.Location = New System.Drawing.Point(578, 171)
+        Me.Cuadre41.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre41.Name = "Cuadre41"
+        Me.Cuadre41.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre41.TabIndex = 20
+        Me.Cuadre41.TabStop = False
+        Me.Cuadre41.Tag = "cuadre"
+        '
+        'Cuadre48
+        '
+        Me.Cuadre48.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre48.Location = New System.Drawing.Point(50, 173)
+        Me.Cuadre48.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre48.Name = "Cuadre48"
+        Me.Cuadre48.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre48.TabIndex = 18
+        Me.Cuadre48.TabStop = False
+        Me.Cuadre48.Tag = "cuadre"
+        '
+        'Cuadre55
+        '
+        Me.Cuadre55.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre55.Location = New System.Drawing.Point(125, 94)
+        Me.Cuadre55.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre55.Name = "Cuadre55"
+        Me.Cuadre55.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre55.TabIndex = 17
+        Me.Cuadre55.TabStop = False
+        Me.Cuadre55.Tag = "cuadre"
+        '
+        'Cuadre54
+        '
+        Me.Cuadre54.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre54.Location = New System.Drawing.Point(201, 94)
+        Me.Cuadre54.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre54.Name = "Cuadre54"
+        Me.Cuadre54.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre54.TabIndex = 16
+        Me.Cuadre54.TabStop = False
+        Me.Cuadre54.Tag = "cuadre"
+        '
+        'Cuadre53
+        '
+        Me.Cuadre53.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre53.Location = New System.Drawing.Point(277, 93)
+        Me.Cuadre53.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre53.Name = "Cuadre53"
+        Me.Cuadre53.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre53.TabIndex = 15
+        Me.Cuadre53.TabStop = False
+        Me.Cuadre53.Tag = "cuadre"
+        '
+        'Cuadre52
+        '
+        Me.Cuadre52.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre52.Location = New System.Drawing.Point(352, 93)
+        Me.Cuadre52.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre52.Name = "Cuadre52"
+        Me.Cuadre52.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre52.TabIndex = 14
+        Me.Cuadre52.TabStop = False
+        Me.Cuadre52.Tag = "cuadre"
+        '
+        'Cuadre51
+        '
+        Me.Cuadre51.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre51.Location = New System.Drawing.Point(427, 93)
+        Me.Cuadre51.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre51.Name = "Cuadre51"
+        Me.Cuadre51.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre51.TabIndex = 13
+        Me.Cuadre51.TabStop = False
+        Me.Cuadre51.Tag = "cuadre"
+        '
+        'Cuadre50
+        '
+        Me.Cuadre50.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre50.Location = New System.Drawing.Point(502, 93)
+        Me.Cuadre50.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre50.Name = "Cuadre50"
+        Me.Cuadre50.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre50.TabIndex = 12
+        Me.Cuadre50.TabStop = False
+        Me.Cuadre50.Tag = "cuadre"
+        '
+        'Cuadre49
+        '
+        Me.Cuadre49.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre49.Location = New System.Drawing.Point(577, 93)
+        Me.Cuadre49.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre49.Name = "Cuadre49"
+        Me.Cuadre49.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre49.TabIndex = 11
+        Me.Cuadre49.TabStop = False
+        Me.Cuadre49.Tag = "cuadre"
+        '
+        'Cuadre56
+        '
+        Me.Cuadre56.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre56.Location = New System.Drawing.Point(49, 95)
+        Me.Cuadre56.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre56.Name = "Cuadre56"
+        Me.Cuadre56.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre56.TabIndex = 9
+        Me.Cuadre56.TabStop = False
+        Me.Cuadre56.Tag = "cuadre"
+        '
+        'Cuadre63
+        '
+        Me.Cuadre63.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre63.Location = New System.Drawing.Point(125, 17)
+        Me.Cuadre63.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre63.Name = "Cuadre63"
+        Me.Cuadre63.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre63.TabIndex = 8
+        Me.Cuadre63.TabStop = False
+        Me.Cuadre63.Tag = "cuadre"
+        '
+        'Cuadre62
+        '
+        Me.Cuadre62.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre62.Location = New System.Drawing.Point(201, 17)
+        Me.Cuadre62.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre62.Name = "Cuadre62"
+        Me.Cuadre62.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre62.TabIndex = 7
+        Me.Cuadre62.TabStop = False
+        Me.Cuadre62.Tag = "cuadre"
+        '
+        'Cuadre61
+        '
+        Me.Cuadre61.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre61.Location = New System.Drawing.Point(277, 16)
+        Me.Cuadre61.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre61.Name = "Cuadre61"
+        Me.Cuadre61.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre61.TabIndex = 6
+        Me.Cuadre61.TabStop = False
+        Me.Cuadre61.Tag = "cuadre"
+        '
+        'Cuadre60
+        '
+        Me.Cuadre60.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre60.Location = New System.Drawing.Point(352, 16)
+        Me.Cuadre60.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre60.Name = "Cuadre60"
+        Me.Cuadre60.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre60.TabIndex = 5
+        Me.Cuadre60.TabStop = False
+        Me.Cuadre60.Tag = "cuadre"
+        '
+        'Cuadre59
+        '
+        Me.Cuadre59.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre59.Location = New System.Drawing.Point(427, 16)
+        Me.Cuadre59.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre59.Name = "Cuadre59"
+        Me.Cuadre59.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre59.TabIndex = 4
+        Me.Cuadre59.TabStop = False
+        Me.Cuadre59.Tag = "cuadre"
+        '
+        'Cuadre58
+        '
+        Me.Cuadre58.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre58.Location = New System.Drawing.Point(502, 16)
+        Me.Cuadre58.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre58.Name = "Cuadre58"
+        Me.Cuadre58.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre58.TabIndex = 3
+        Me.Cuadre58.TabStop = False
+        Me.Cuadre58.Tag = "cuadre"
+        '
+        'Cuadre57
+        '
+        Me.Cuadre57.BackColor = System.Drawing.Color.Sienna
+        Me.Cuadre57.Location = New System.Drawing.Point(577, 16)
+        Me.Cuadre57.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre57.Name = "Cuadre57"
+        Me.Cuadre57.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre57.TabIndex = 2
+        Me.Cuadre57.TabStop = False
+        Me.Cuadre57.Tag = "cuadre"
+        '
+        'Cuadre64
+        '
+        Me.Cuadre64.BackColor = System.Drawing.Color.SandyBrown
+        Me.Cuadre64.Location = New System.Drawing.Point(49, 18)
+        Me.Cuadre64.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Cuadre64.Name = "Cuadre64"
+        Me.Cuadre64.Size = New System.Drawing.Size(70, 72)
+        Me.Cuadre64.TabIndex = 0
+        Me.Cuadre64.TabStop = False
+        Me.Cuadre64.Tag = "cuadre"
         '
         'PeoBlanc1
         '
         Me.PeoBlanc1.BackColor = System.Drawing.Color.Transparent
         Me.PeoBlanc1.Image = CType(resources.GetObject("PeoBlanc1.Image"), System.Drawing.Image)
         Me.PeoBlanc1.InitialImage = Nothing
-        Me.PeoBlanc1.Location = New System.Drawing.Point(578, 477)
+        Me.PeoBlanc1.Location = New System.Drawing.Point(578, 478)
         Me.PeoBlanc1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoBlanc1.Name = "PeoBlanc1"
         Me.PeoBlanc1.Size = New System.Drawing.Size(70, 72)
@@ -1055,7 +1057,7 @@ Partial Class Form1
         Me.PeoBlanc2.BackColor = System.Drawing.Color.Transparent
         Me.PeoBlanc2.Image = CType(resources.GetObject("PeoBlanc2.Image"), System.Drawing.Image)
         Me.PeoBlanc2.InitialImage = Nothing
-        Me.PeoBlanc2.Location = New System.Drawing.Point(498, 477)
+        Me.PeoBlanc2.Location = New System.Drawing.Point(498, 478)
         Me.PeoBlanc2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoBlanc2.Name = "PeoBlanc2"
         Me.PeoBlanc2.Size = New System.Drawing.Size(70, 72)
@@ -1069,7 +1071,7 @@ Partial Class Form1
         Me.PeoBlanc3.BackColor = System.Drawing.Color.Transparent
         Me.PeoBlanc3.Image = CType(resources.GetObject("PeoBlanc3.Image"), System.Drawing.Image)
         Me.PeoBlanc3.InitialImage = Nothing
-        Me.PeoBlanc3.Location = New System.Drawing.Point(423, 477)
+        Me.PeoBlanc3.Location = New System.Drawing.Point(423, 478)
         Me.PeoBlanc3.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoBlanc3.Name = "PeoBlanc3"
         Me.PeoBlanc3.Size = New System.Drawing.Size(70, 72)
@@ -1083,7 +1085,7 @@ Partial Class Form1
         Me.PeoBlanc4.BackColor = System.Drawing.Color.Transparent
         Me.PeoBlanc4.Image = CType(resources.GetObject("PeoBlanc4.Image"), System.Drawing.Image)
         Me.PeoBlanc4.InitialImage = Nothing
-        Me.PeoBlanc4.Location = New System.Drawing.Point(348, 477)
+        Me.PeoBlanc4.Location = New System.Drawing.Point(348, 478)
         Me.PeoBlanc4.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoBlanc4.Name = "PeoBlanc4"
         Me.PeoBlanc4.Size = New System.Drawing.Size(70, 72)
@@ -1097,7 +1099,7 @@ Partial Class Form1
         Me.PeoBlanc5.BackColor = System.Drawing.Color.Transparent
         Me.PeoBlanc5.Image = CType(resources.GetObject("PeoBlanc5.Image"), System.Drawing.Image)
         Me.PeoBlanc5.InitialImage = Nothing
-        Me.PeoBlanc5.Location = New System.Drawing.Point(273, 477)
+        Me.PeoBlanc5.Location = New System.Drawing.Point(273, 478)
         Me.PeoBlanc5.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoBlanc5.Name = "PeoBlanc5"
         Me.PeoBlanc5.Size = New System.Drawing.Size(70, 72)
@@ -1111,7 +1113,7 @@ Partial Class Form1
         Me.PeoBlanc6.BackColor = System.Drawing.Color.Transparent
         Me.PeoBlanc6.Image = CType(resources.GetObject("PeoBlanc6.Image"), System.Drawing.Image)
         Me.PeoBlanc6.InitialImage = Nothing
-        Me.PeoBlanc6.Location = New System.Drawing.Point(198, 477)
+        Me.PeoBlanc6.Location = New System.Drawing.Point(198, 478)
         Me.PeoBlanc6.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoBlanc6.Name = "PeoBlanc6"
         Me.PeoBlanc6.Size = New System.Drawing.Size(70, 72)
@@ -1125,7 +1127,7 @@ Partial Class Form1
         Me.PeoBlanc7.BackColor = System.Drawing.Color.Transparent
         Me.PeoBlanc7.Image = CType(resources.GetObject("PeoBlanc7.Image"), System.Drawing.Image)
         Me.PeoBlanc7.InitialImage = Nothing
-        Me.PeoBlanc7.Location = New System.Drawing.Point(118, 477)
+        Me.PeoBlanc7.Location = New System.Drawing.Point(118, 478)
         Me.PeoBlanc7.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoBlanc7.Name = "PeoBlanc7"
         Me.PeoBlanc7.Size = New System.Drawing.Size(70, 72)
@@ -1139,7 +1141,7 @@ Partial Class Form1
         Me.PeoBlanc8.BackColor = System.Drawing.Color.Transparent
         Me.PeoBlanc8.Image = CType(resources.GetObject("PeoBlanc8.Image"), System.Drawing.Image)
         Me.PeoBlanc8.InitialImage = Nothing
-        Me.PeoBlanc8.Location = New System.Drawing.Point(43, 474)
+        Me.PeoBlanc8.Location = New System.Drawing.Point(43, 475)
         Me.PeoBlanc8.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoBlanc8.Name = "PeoBlanc8"
         Me.PeoBlanc8.Size = New System.Drawing.Size(70, 72)
@@ -1153,7 +1155,7 @@ Partial Class Form1
         Me.PeoNegre8.BackColor = System.Drawing.Color.Transparent
         Me.PeoNegre8.Image = CType(resources.GetObject("PeoNegre8.Image"), System.Drawing.Image)
         Me.PeoNegre8.InitialImage = Nothing
-        Me.PeoNegre8.Location = New System.Drawing.Point(43, 96)
+        Me.PeoNegre8.Location = New System.Drawing.Point(42, 88)
         Me.PeoNegre8.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoNegre8.Name = "PeoNegre8"
         Me.PeoNegre8.Size = New System.Drawing.Size(70, 72)
@@ -1167,7 +1169,7 @@ Partial Class Form1
         Me.PeoNegre7.BackColor = System.Drawing.Color.Transparent
         Me.PeoNegre7.Image = CType(resources.GetObject("PeoNegre7.Image"), System.Drawing.Image)
         Me.PeoNegre7.InitialImage = Nothing
-        Me.PeoNegre7.Location = New System.Drawing.Point(118, 99)
+        Me.PeoNegre7.Location = New System.Drawing.Point(117, 91)
         Me.PeoNegre7.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoNegre7.Name = "PeoNegre7"
         Me.PeoNegre7.Size = New System.Drawing.Size(70, 72)
@@ -1181,7 +1183,7 @@ Partial Class Form1
         Me.PeoNegre6.BackColor = System.Drawing.Color.Transparent
         Me.PeoNegre6.Image = CType(resources.GetObject("PeoNegre6.Image"), System.Drawing.Image)
         Me.PeoNegre6.InitialImage = Nothing
-        Me.PeoNegre6.Location = New System.Drawing.Point(198, 99)
+        Me.PeoNegre6.Location = New System.Drawing.Point(197, 91)
         Me.PeoNegre6.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoNegre6.Name = "PeoNegre6"
         Me.PeoNegre6.Size = New System.Drawing.Size(70, 72)
@@ -1195,7 +1197,7 @@ Partial Class Form1
         Me.PeoNegre5.BackColor = System.Drawing.Color.Transparent
         Me.PeoNegre5.Image = CType(resources.GetObject("PeoNegre5.Image"), System.Drawing.Image)
         Me.PeoNegre5.InitialImage = Nothing
-        Me.PeoNegre5.Location = New System.Drawing.Point(273, 99)
+        Me.PeoNegre5.Location = New System.Drawing.Point(272, 91)
         Me.PeoNegre5.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoNegre5.Name = "PeoNegre5"
         Me.PeoNegre5.Size = New System.Drawing.Size(70, 72)
@@ -1209,7 +1211,7 @@ Partial Class Form1
         Me.PeoNegre4.BackColor = System.Drawing.Color.Transparent
         Me.PeoNegre4.Image = CType(resources.GetObject("PeoNegre4.Image"), System.Drawing.Image)
         Me.PeoNegre4.InitialImage = Nothing
-        Me.PeoNegre4.Location = New System.Drawing.Point(348, 99)
+        Me.PeoNegre4.Location = New System.Drawing.Point(347, 91)
         Me.PeoNegre4.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoNegre4.Name = "PeoNegre4"
         Me.PeoNegre4.Size = New System.Drawing.Size(70, 72)
@@ -1223,7 +1225,7 @@ Partial Class Form1
         Me.PeoNegre3.BackColor = System.Drawing.Color.Transparent
         Me.PeoNegre3.Image = CType(resources.GetObject("PeoNegre3.Image"), System.Drawing.Image)
         Me.PeoNegre3.InitialImage = Nothing
-        Me.PeoNegre3.Location = New System.Drawing.Point(423, 99)
+        Me.PeoNegre3.Location = New System.Drawing.Point(422, 91)
         Me.PeoNegre3.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoNegre3.Name = "PeoNegre3"
         Me.PeoNegre3.Size = New System.Drawing.Size(70, 72)
@@ -1237,7 +1239,7 @@ Partial Class Form1
         Me.PeoNegre2.BackColor = System.Drawing.Color.Transparent
         Me.PeoNegre2.Image = CType(resources.GetObject("PeoNegre2.Image"), System.Drawing.Image)
         Me.PeoNegre2.InitialImage = Nothing
-        Me.PeoNegre2.Location = New System.Drawing.Point(498, 99)
+        Me.PeoNegre2.Location = New System.Drawing.Point(497, 91)
         Me.PeoNegre2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoNegre2.Name = "PeoNegre2"
         Me.PeoNegre2.Size = New System.Drawing.Size(70, 72)
@@ -1251,7 +1253,7 @@ Partial Class Form1
         Me.PeoNegre1.BackColor = System.Drawing.Color.Transparent
         Me.PeoNegre1.Image = CType(resources.GetObject("PeoNegre1.Image"), System.Drawing.Image)
         Me.PeoNegre1.InitialImage = Nothing
-        Me.PeoNegre1.Location = New System.Drawing.Point(578, 99)
+        Me.PeoNegre1.Location = New System.Drawing.Point(577, 91)
         Me.PeoNegre1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.PeoNegre1.Name = "PeoNegre1"
         Me.PeoNegre1.Size = New System.Drawing.Size(70, 72)
@@ -1265,7 +1267,7 @@ Partial Class Form1
         Me.TorreBlanc2.BackColor = System.Drawing.Color.Transparent
         Me.TorreBlanc2.Image = CType(resources.GetObject("TorreBlanc2.Image"), System.Drawing.Image)
         Me.TorreBlanc2.InitialImage = Nothing
-        Me.TorreBlanc2.Location = New System.Drawing.Point(43, 551)
+        Me.TorreBlanc2.Location = New System.Drawing.Point(43, 552)
         Me.TorreBlanc2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.TorreBlanc2.Name = "TorreBlanc2"
         Me.TorreBlanc2.Size = New System.Drawing.Size(70, 72)
@@ -1279,7 +1281,7 @@ Partial Class Form1
         Me.CavallBlanc2.BackColor = System.Drawing.Color.Transparent
         Me.CavallBlanc2.Image = CType(resources.GetObject("CavallBlanc2.Image"), System.Drawing.Image)
         Me.CavallBlanc2.InitialImage = Nothing
-        Me.CavallBlanc2.Location = New System.Drawing.Point(118, 554)
+        Me.CavallBlanc2.Location = New System.Drawing.Point(118, 555)
         Me.CavallBlanc2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.CavallBlanc2.Name = "CavallBlanc2"
         Me.CavallBlanc2.Size = New System.Drawing.Size(70, 72)
@@ -1293,7 +1295,7 @@ Partial Class Form1
         Me.AlfilBlanc2.BackColor = System.Drawing.Color.Transparent
         Me.AlfilBlanc2.Image = CType(resources.GetObject("AlfilBlanc2.Image"), System.Drawing.Image)
         Me.AlfilBlanc2.InitialImage = Nothing
-        Me.AlfilBlanc2.Location = New System.Drawing.Point(198, 554)
+        Me.AlfilBlanc2.Location = New System.Drawing.Point(198, 555)
         Me.AlfilBlanc2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.AlfilBlanc2.Name = "AlfilBlanc2"
         Me.AlfilBlanc2.Size = New System.Drawing.Size(70, 72)
@@ -1307,7 +1309,7 @@ Partial Class Form1
         Me.ReinaBlanc.BackColor = System.Drawing.Color.Transparent
         Me.ReinaBlanc.Image = CType(resources.GetObject("ReinaBlanc.Image"), System.Drawing.Image)
         Me.ReinaBlanc.InitialImage = Nothing
-        Me.ReinaBlanc.Location = New System.Drawing.Point(273, 554)
+        Me.ReinaBlanc.Location = New System.Drawing.Point(273, 555)
         Me.ReinaBlanc.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.ReinaBlanc.Name = "ReinaBlanc"
         Me.ReinaBlanc.Size = New System.Drawing.Size(70, 72)
@@ -1321,7 +1323,7 @@ Partial Class Form1
         Me.ReiBlanc.BackColor = System.Drawing.Color.Transparent
         Me.ReiBlanc.Image = CType(resources.GetObject("ReiBlanc.Image"), System.Drawing.Image)
         Me.ReiBlanc.InitialImage = Nothing
-        Me.ReiBlanc.Location = New System.Drawing.Point(348, 551)
+        Me.ReiBlanc.Location = New System.Drawing.Point(348, 552)
         Me.ReiBlanc.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.ReiBlanc.Name = "ReiBlanc"
         Me.ReiBlanc.Size = New System.Drawing.Size(70, 72)
@@ -1335,7 +1337,7 @@ Partial Class Form1
         Me.AlfilBlanc1.BackColor = System.Drawing.Color.Transparent
         Me.AlfilBlanc1.Image = CType(resources.GetObject("AlfilBlanc1.Image"), System.Drawing.Image)
         Me.AlfilBlanc1.InitialImage = Nothing
-        Me.AlfilBlanc1.Location = New System.Drawing.Point(423, 554)
+        Me.AlfilBlanc1.Location = New System.Drawing.Point(423, 555)
         Me.AlfilBlanc1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.AlfilBlanc1.Name = "AlfilBlanc1"
         Me.AlfilBlanc1.Size = New System.Drawing.Size(70, 72)
@@ -1349,7 +1351,7 @@ Partial Class Form1
         Me.CavallBlanc1.BackColor = System.Drawing.Color.Transparent
         Me.CavallBlanc1.Image = CType(resources.GetObject("CavallBlanc1.Image"), System.Drawing.Image)
         Me.CavallBlanc1.InitialImage = Nothing
-        Me.CavallBlanc1.Location = New System.Drawing.Point(503, 551)
+        Me.CavallBlanc1.Location = New System.Drawing.Point(503, 552)
         Me.CavallBlanc1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.CavallBlanc1.Name = "CavallBlanc1"
         Me.CavallBlanc1.Size = New System.Drawing.Size(70, 72)
@@ -1363,7 +1365,7 @@ Partial Class Form1
         Me.TorreBlanc1.BackColor = System.Drawing.Color.Transparent
         Me.TorreBlanc1.Image = CType(resources.GetObject("TorreBlanc1.Image"), System.Drawing.Image)
         Me.TorreBlanc1.InitialImage = Nothing
-        Me.TorreBlanc1.Location = New System.Drawing.Point(578, 554)
+        Me.TorreBlanc1.Location = New System.Drawing.Point(578, 555)
         Me.TorreBlanc1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.TorreBlanc1.Name = "TorreBlanc1"
         Me.TorreBlanc1.Size = New System.Drawing.Size(70, 72)
@@ -1377,7 +1379,7 @@ Partial Class Form1
         Me.TorreNegre2.BackColor = System.Drawing.Color.Transparent
         Me.TorreNegre2.Image = CType(resources.GetObject("TorreNegre2.Image"), System.Drawing.Image)
         Me.TorreNegre2.InitialImage = Nothing
-        Me.TorreNegre2.Location = New System.Drawing.Point(43, 19)
+        Me.TorreNegre2.Location = New System.Drawing.Point(42, 11)
         Me.TorreNegre2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.TorreNegre2.Name = "TorreNegre2"
         Me.TorreNegre2.Size = New System.Drawing.Size(70, 72)
@@ -1391,7 +1393,7 @@ Partial Class Form1
         Me.CavallNegre2.BackColor = System.Drawing.Color.Transparent
         Me.CavallNegre2.Image = CType(resources.GetObject("CavallNegre2.Image"), System.Drawing.Image)
         Me.CavallNegre2.InitialImage = Nothing
-        Me.CavallNegre2.Location = New System.Drawing.Point(118, 22)
+        Me.CavallNegre2.Location = New System.Drawing.Point(117, 14)
         Me.CavallNegre2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.CavallNegre2.Name = "CavallNegre2"
         Me.CavallNegre2.Size = New System.Drawing.Size(70, 72)
@@ -1405,7 +1407,7 @@ Partial Class Form1
         Me.AlfilNegre2.BackColor = System.Drawing.Color.Transparent
         Me.AlfilNegre2.Image = CType(resources.GetObject("AlfilNegre2.Image"), System.Drawing.Image)
         Me.AlfilNegre2.InitialImage = Nothing
-        Me.AlfilNegre2.Location = New System.Drawing.Point(198, 22)
+        Me.AlfilNegre2.Location = New System.Drawing.Point(197, 14)
         Me.AlfilNegre2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.AlfilNegre2.Name = "AlfilNegre2"
         Me.AlfilNegre2.Size = New System.Drawing.Size(70, 72)
@@ -1419,7 +1421,7 @@ Partial Class Form1
         Me.ReinaNegre.BackColor = System.Drawing.Color.Transparent
         Me.ReinaNegre.Image = CType(resources.GetObject("ReinaNegre.Image"), System.Drawing.Image)
         Me.ReinaNegre.InitialImage = Nothing
-        Me.ReinaNegre.Location = New System.Drawing.Point(273, 22)
+        Me.ReinaNegre.Location = New System.Drawing.Point(272, 14)
         Me.ReinaNegre.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.ReinaNegre.Name = "ReinaNegre"
         Me.ReinaNegre.Size = New System.Drawing.Size(70, 72)
@@ -1433,7 +1435,7 @@ Partial Class Form1
         Me.ReiNegre.BackColor = System.Drawing.Color.Transparent
         Me.ReiNegre.Image = CType(resources.GetObject("ReiNegre.Image"), System.Drawing.Image)
         Me.ReiNegre.InitialImage = Nothing
-        Me.ReiNegre.Location = New System.Drawing.Point(348, 22)
+        Me.ReiNegre.Location = New System.Drawing.Point(347, 14)
         Me.ReiNegre.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.ReiNegre.Name = "ReiNegre"
         Me.ReiNegre.Size = New System.Drawing.Size(70, 72)
@@ -1447,7 +1449,7 @@ Partial Class Form1
         Me.AlfilNegre1.BackColor = System.Drawing.Color.Transparent
         Me.AlfilNegre1.Image = CType(resources.GetObject("AlfilNegre1.Image"), System.Drawing.Image)
         Me.AlfilNegre1.InitialImage = Nothing
-        Me.AlfilNegre1.Location = New System.Drawing.Point(423, 22)
+        Me.AlfilNegre1.Location = New System.Drawing.Point(422, 14)
         Me.AlfilNegre1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.AlfilNegre1.Name = "AlfilNegre1"
         Me.AlfilNegre1.Size = New System.Drawing.Size(70, 72)
@@ -1461,7 +1463,7 @@ Partial Class Form1
         Me.CavallNegre1.BackColor = System.Drawing.Color.Transparent
         Me.CavallNegre1.Image = CType(resources.GetObject("CavallNegre1.Image"), System.Drawing.Image)
         Me.CavallNegre1.InitialImage = Nothing
-        Me.CavallNegre1.Location = New System.Drawing.Point(498, 22)
+        Me.CavallNegre1.Location = New System.Drawing.Point(497, 14)
         Me.CavallNegre1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.CavallNegre1.Name = "CavallNegre1"
         Me.CavallNegre1.Size = New System.Drawing.Size(70, 72)
@@ -1475,7 +1477,7 @@ Partial Class Form1
         Me.TorreNegre1.BackColor = System.Drawing.Color.Transparent
         Me.TorreNegre1.Image = CType(resources.GetObject("TorreNegre1.Image"), System.Drawing.Image)
         Me.TorreNegre1.InitialImage = Nothing
-        Me.TorreNegre1.Location = New System.Drawing.Point(578, 22)
+        Me.TorreNegre1.Location = New System.Drawing.Point(577, 14)
         Me.TorreNegre1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.TorreNegre1.Name = "TorreNegre1"
         Me.TorreNegre1.Size = New System.Drawing.Size(70, 72)
@@ -1488,9 +1490,8 @@ Partial Class Form1
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.Color.DarkSlateGray
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(1138, 637)
+        Me.ClientSize = New System.Drawing.Size(1108, 637)
         Me.Controls.Add(Me.TorreNegre2)
         Me.Controls.Add(Me.CavallNegre2)
         Me.Controls.Add(Me.AlfilNegre2)
@@ -1532,138 +1533,139 @@ Partial Class Form1
         Me.Controls.Add(Me.Boto_Sortir)
         Me.Controls.Add(Me.Boto_SegJoc)
         Me.Controls.Add(Me.Boto_NovaP)
-        Me.Controls.Add(Me.CuadreClar29)
-        Me.Controls.Add(Me.CuadreObscur30)
-        Me.Controls.Add(Me.CuadreClar30)
-        Me.Controls.Add(Me.CuadreObscur31)
-        Me.Controls.Add(Me.CuadreClar31)
-        Me.Controls.Add(Me.CuadreObscur32)
-        Me.Controls.Add(Me.CuadreClar32)
-        Me.Controls.Add(Me.CuadreObscur29)
-        Me.Controls.Add(Me.CuadreObscur25)
-        Me.Controls.Add(Me.CuadreClar26)
-        Me.Controls.Add(Me.CuadreObscur26)
-        Me.Controls.Add(Me.CuadreClar27)
-        Me.Controls.Add(Me.CuadreObscur27)
-        Me.Controls.Add(Me.CuadreClar28)
-        Me.Controls.Add(Me.CuadreObscur28)
-        Me.Controls.Add(Me.CuadreClar25)
-        Me.Controls.Add(Me.CuadreClar21)
-        Me.Controls.Add(Me.CuadreObscur22)
-        Me.Controls.Add(Me.CuadreClar22)
-        Me.Controls.Add(Me.CuadreObscur23)
-        Me.Controls.Add(Me.CuadreClar23)
-        Me.Controls.Add(Me.CuadreObscur24)
-        Me.Controls.Add(Me.CuadreClar24)
-        Me.Controls.Add(Me.CuadreObscur21)
-        Me.Controls.Add(Me.CuadreObscur17)
-        Me.Controls.Add(Me.CuadreClar18)
-        Me.Controls.Add(Me.CuadreObscur18)
-        Me.Controls.Add(Me.CuadreClar19)
-        Me.Controls.Add(Me.CuadreObscur19)
-        Me.Controls.Add(Me.CuadreClar20)
-        Me.Controls.Add(Me.CuadreObscur20)
-        Me.Controls.Add(Me.CuadreClar17)
-        Me.Controls.Add(Me.CuadreClar13)
-        Me.Controls.Add(Me.CuadreObscur14)
-        Me.Controls.Add(Me.CuadreClar14)
-        Me.Controls.Add(Me.CuadreObscur15)
-        Me.Controls.Add(Me.CuadreClar15)
-        Me.Controls.Add(Me.CuadreObscur16)
-        Me.Controls.Add(Me.CuadreClar16)
-        Me.Controls.Add(Me.CuadreObscur13)
-        Me.Controls.Add(Me.CuadreObscur9)
-        Me.Controls.Add(Me.CuadreClar10)
-        Me.Controls.Add(Me.CuadreObscur10)
-        Me.Controls.Add(Me.CuadreClar11)
-        Me.Controls.Add(Me.CuadreObscur11)
-        Me.Controls.Add(Me.CuadreClar12)
-        Me.Controls.Add(Me.CuadreObscur12)
-        Me.Controls.Add(Me.CuadreClar9)
-        Me.Controls.Add(Me.CuadreClar5)
-        Me.Controls.Add(Me.CuadreObscur6)
-        Me.Controls.Add(Me.CuadreClar6)
-        Me.Controls.Add(Me.CuadreObscur7)
-        Me.Controls.Add(Me.CuadreClar7)
-        Me.Controls.Add(Me.CuadreObscur8)
-        Me.Controls.Add(Me.CuadreClar8)
-        Me.Controls.Add(Me.CuadreObscur5)
-        Me.Controls.Add(Me.CuadreObscur1)
-        Me.Controls.Add(Me.CuadreClar2)
-        Me.Controls.Add(Me.CuadreObscur2)
-        Me.Controls.Add(Me.CuadreClar3)
-        Me.Controls.Add(Me.CuadreObscur3)
-        Me.Controls.Add(Me.CuadreClar4)
-        Me.Controls.Add(Me.CuadreObscur4)
-        Me.Controls.Add(Me.CuadreClar1)
+        Me.Controls.Add(Me.Cuadre7)
+        Me.Controls.Add(Me.Cuadre6)
+        Me.Controls.Add(Me.Cuadre5)
+        Me.Controls.Add(Me.Cuadre4)
+        Me.Controls.Add(Me.Cuadre3)
+        Me.Controls.Add(Me.Cuadre2)
+        Me.Controls.Add(Me.Cuadre1)
+        Me.Controls.Add(Me.Cuadre8)
+        Me.Controls.Add(Me.Cuadre15)
+        Me.Controls.Add(Me.Cuadre14)
+        Me.Controls.Add(Me.Cuadre13)
+        Me.Controls.Add(Me.Cuadre12)
+        Me.Controls.Add(Me.Cuadre11)
+        Me.Controls.Add(Me.Cuadre10)
+        Me.Controls.Add(Me.Cuadre9)
+        Me.Controls.Add(Me.Cuadre16)
+        Me.Controls.Add(Me.Cuadre23)
+        Me.Controls.Add(Me.Cuadre22)
+        Me.Controls.Add(Me.Cuadre21)
+        Me.Controls.Add(Me.Cuadre20)
+        Me.Controls.Add(Me.Cuadre19)
+        Me.Controls.Add(Me.Cuadre18)
+        Me.Controls.Add(Me.Cuadre17)
+        Me.Controls.Add(Me.Cuadre24)
+        Me.Controls.Add(Me.Cuadre31)
+        Me.Controls.Add(Me.Cuadre30)
+        Me.Controls.Add(Me.Cuadre29)
+        Me.Controls.Add(Me.Cuadre28)
+        Me.Controls.Add(Me.Cuadre27)
+        Me.Controls.Add(Me.Cuadre26)
+        Me.Controls.Add(Me.Cuadre25)
+        Me.Controls.Add(Me.Cuadre32)
+        Me.Controls.Add(Me.Cuadre39)
+        Me.Controls.Add(Me.Cuadre38)
+        Me.Controls.Add(Me.Cuadre37)
+        Me.Controls.Add(Me.Cuadre36)
+        Me.Controls.Add(Me.Cuadre35)
+        Me.Controls.Add(Me.Cuadre34)
+        Me.Controls.Add(Me.Cuadre33)
+        Me.Controls.Add(Me.Cuadre40)
+        Me.Controls.Add(Me.Cuadre47)
+        Me.Controls.Add(Me.Cuadre46)
+        Me.Controls.Add(Me.Cuadre45)
+        Me.Controls.Add(Me.Cuadre44)
+        Me.Controls.Add(Me.Cuadre43)
+        Me.Controls.Add(Me.Cuadre42)
+        Me.Controls.Add(Me.Cuadre41)
+        Me.Controls.Add(Me.Cuadre48)
+        Me.Controls.Add(Me.Cuadre55)
+        Me.Controls.Add(Me.Cuadre54)
+        Me.Controls.Add(Me.Cuadre53)
+        Me.Controls.Add(Me.Cuadre52)
+        Me.Controls.Add(Me.Cuadre51)
+        Me.Controls.Add(Me.Cuadre50)
+        Me.Controls.Add(Me.Cuadre49)
+        Me.Controls.Add(Me.Cuadre56)
+        Me.Controls.Add(Me.Cuadre63)
+        Me.Controls.Add(Me.Cuadre62)
+        Me.Controls.Add(Me.Cuadre61)
+        Me.Controls.Add(Me.Cuadre60)
+        Me.Controls.Add(Me.Cuadre59)
+        Me.Controls.Add(Me.Cuadre58)
+        Me.Controls.Add(Me.Cuadre57)
+        Me.Controls.Add(Me.Cuadre64)
         Me.DoubleBuffered = True
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.CuadreClar29, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur30, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar30, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur31, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar31, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur32, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar32, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur29, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur25, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar26, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur26, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar27, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur27, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar28, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur28, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar25, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar21, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur22, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar22, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur23, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar23, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur24, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar24, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur21, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar19, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur19, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar20, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur20, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreObscur4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CuadreClar1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre23, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre22, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre21, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre24, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre31, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre30, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre29, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre28, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre27, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre26, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre25, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre32, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre39, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre38, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre37, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre36, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre35, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre34, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre33, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre40, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre47, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre46, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre45, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre44, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre43, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre42, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre41, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre48, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre55, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre54, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre53, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre52, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre51, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre50, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre49, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre56, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre63, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre62, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre61, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre60, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre59, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre58, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre57, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Cuadre64, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PeoBlanc1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PeoBlanc2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PeoBlanc3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1701,70 +1703,70 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents CuadreClar1 As PictureBox
-    Friend WithEvents CuadreObscur4 As PictureBox
-    Friend WithEvents CuadreClar4 As PictureBox
-    Friend WithEvents CuadreObscur3 As PictureBox
-    Friend WithEvents CuadreClar3 As PictureBox
-    Friend WithEvents CuadreObscur2 As PictureBox
-    Friend WithEvents CuadreClar2 As PictureBox
-    Friend WithEvents CuadreObscur1 As PictureBox
-    Friend WithEvents CuadreClar5 As PictureBox
-    Friend WithEvents CuadreObscur6 As PictureBox
-    Friend WithEvents CuadreClar6 As PictureBox
-    Friend WithEvents CuadreObscur7 As PictureBox
-    Friend WithEvents CuadreClar7 As PictureBox
-    Friend WithEvents CuadreObscur8 As PictureBox
-    Friend WithEvents CuadreClar8 As PictureBox
-    Friend WithEvents CuadreObscur5 As PictureBox
-    Friend WithEvents CuadreObscur9 As PictureBox
-    Friend WithEvents CuadreClar10 As PictureBox
-    Friend WithEvents CuadreObscur10 As PictureBox
-    Friend WithEvents CuadreClar11 As PictureBox
-    Friend WithEvents CuadreObscur11 As PictureBox
-    Friend WithEvents CuadreClar12 As PictureBox
-    Friend WithEvents CuadreObscur12 As PictureBox
-    Friend WithEvents CuadreClar9 As PictureBox
-    Friend WithEvents CuadreClar13 As PictureBox
-    Friend WithEvents CuadreObscur14 As PictureBox
-    Friend WithEvents CuadreClar14 As PictureBox
-    Friend WithEvents CuadreObscur15 As PictureBox
-    Friend WithEvents CuadreClar15 As PictureBox
-    Friend WithEvents CuadreObscur16 As PictureBox
-    Friend WithEvents CuadreClar16 As PictureBox
-    Friend WithEvents CuadreObscur13 As PictureBox
-    Friend WithEvents CuadreObscur17 As PictureBox
-    Friend WithEvents CuadreClar18 As PictureBox
-    Friend WithEvents CuadreObscur18 As PictureBox
-    Friend WithEvents CuadreClar19 As PictureBox
-    Friend WithEvents CuadreObscur19 As PictureBox
-    Friend WithEvents CuadreClar20 As PictureBox
-    Friend WithEvents CuadreObscur20 As PictureBox
-    Friend WithEvents CuadreClar17 As PictureBox
-    Friend WithEvents CuadreClar21 As PictureBox
-    Friend WithEvents CuadreObscur22 As PictureBox
-    Friend WithEvents CuadreClar22 As PictureBox
-    Friend WithEvents CuadreObscur23 As PictureBox
-    Friend WithEvents CuadreClar23 As PictureBox
-    Friend WithEvents CuadreObscur24 As PictureBox
-    Friend WithEvents CuadreClar24 As PictureBox
-    Friend WithEvents CuadreObscur21 As PictureBox
-    Friend WithEvents CuadreObscur25 As PictureBox
-    Friend WithEvents CuadreClar26 As PictureBox
-    Friend WithEvents CuadreObscur26 As PictureBox
-    Friend WithEvents CuadreClar27 As PictureBox
-    Friend WithEvents CuadreObscur27 As PictureBox
-    Friend WithEvents CuadreClar28 As PictureBox
-    Friend WithEvents CuadreObscur28 As PictureBox
-    Friend WithEvents CuadreClar25 As PictureBox
-    Friend WithEvents CuadreClar29 As PictureBox
-    Friend WithEvents CuadreObscur30 As PictureBox
-    Friend WithEvents CuadreClar30 As PictureBox
-    Friend WithEvents CuadreObscur31 As PictureBox
-    Friend WithEvents CuadreClar31 As PictureBox
-    Friend WithEvents CuadreObscur32 As PictureBox
-    Friend WithEvents CuadreClar32 As PictureBox
-    Friend WithEvents CuadreObscur29 As PictureBox
+    Friend WithEvents Cuadre64 As PictureBox
+    Friend WithEvents Cuadre57 As PictureBox
+    Friend WithEvents Cuadre58 As PictureBox
+    Friend WithEvents Cuadre59 As PictureBox
+    Friend WithEvents Cuadre60 As PictureBox
+    Friend WithEvents Cuadre61 As PictureBox
+    Friend WithEvents Cuadre62 As PictureBox
+    Friend WithEvents Cuadre63 As PictureBox
+    Friend WithEvents Cuadre55 As PictureBox
+    Friend WithEvents Cuadre54 As PictureBox
+    Friend WithEvents Cuadre53 As PictureBox
+    Friend WithEvents Cuadre52 As PictureBox
+    Friend WithEvents Cuadre51 As PictureBox
+    Friend WithEvents Cuadre50 As PictureBox
+    Friend WithEvents Cuadre49 As PictureBox
+    Friend WithEvents Cuadre56 As PictureBox
+    Friend WithEvents Cuadre47 As PictureBox
+    Friend WithEvents Cuadre46 As PictureBox
+    Friend WithEvents Cuadre45 As PictureBox
+    Friend WithEvents Cuadre44 As PictureBox
+    Friend WithEvents Cuadre43 As PictureBox
+    Friend WithEvents Cuadre42 As PictureBox
+    Friend WithEvents Cuadre41 As PictureBox
+    Friend WithEvents Cuadre48 As PictureBox
+    Friend WithEvents Cuadre39 As PictureBox
+    Friend WithEvents Cuadre38 As PictureBox
+    Friend WithEvents Cuadre37 As PictureBox
+    Friend WithEvents Cuadre36 As PictureBox
+    Friend WithEvents Cuadre35 As PictureBox
+    Friend WithEvents Cuadre34 As PictureBox
+    Friend WithEvents Cuadre33 As PictureBox
+    Friend WithEvents Cuadre40 As PictureBox
+    Friend WithEvents Cuadre31 As PictureBox
+    Friend WithEvents Cuadre30 As PictureBox
+    Friend WithEvents Cuadre29 As PictureBox
+    Friend WithEvents Cuadre28 As PictureBox
+    Friend WithEvents Cuadre27 As PictureBox
+    Friend WithEvents Cuadre26 As PictureBox
+    Friend WithEvents Cuadre25 As PictureBox
+    Friend WithEvents Cuadre32 As PictureBox
+    Friend WithEvents Cuadre23 As PictureBox
+    Friend WithEvents Cuadre22 As PictureBox
+    Friend WithEvents Cuadre21 As PictureBox
+    Friend WithEvents Cuadre20 As PictureBox
+    Friend WithEvents Cuadre19 As PictureBox
+    Friend WithEvents Cuadre18 As PictureBox
+    Friend WithEvents Cuadre17 As PictureBox
+    Friend WithEvents Cuadre24 As PictureBox
+    Friend WithEvents Cuadre15 As PictureBox
+    Friend WithEvents Cuadre14 As PictureBox
+    Friend WithEvents Cuadre13 As PictureBox
+    Friend WithEvents Cuadre12 As PictureBox
+    Friend WithEvents Cuadre11 As PictureBox
+    Friend WithEvents Cuadre10 As PictureBox
+    Friend WithEvents Cuadre9 As PictureBox
+    Friend WithEvents Cuadre16 As PictureBox
+    Friend WithEvents Cuadre7 As PictureBox
+    Friend WithEvents Cuadre6 As PictureBox
+    Friend WithEvents Cuadre5 As PictureBox
+    Friend WithEvents Cuadre4 As PictureBox
+    Friend WithEvents Cuadre3 As PictureBox
+    Friend WithEvents Cuadre2 As PictureBox
+    Friend WithEvents Cuadre1 As PictureBox
+    Friend WithEvents Cuadre8 As PictureBox
     Friend WithEvents Boto_NovaP As Button
     Friend WithEvents Boto_SegJoc As Button
     Friend WithEvents Boto_Sortir As Button
