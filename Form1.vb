@@ -9,6 +9,7 @@
     Dim guanyat As Boolean = False
     Dim esPot As Boolean = False
     Dim posicio As Int32
+    Dim potAtrapar As Boolean = False
 
     Dim ex, ey As Integer
     Dim Arrastre As Boolean
@@ -30,6 +31,7 @@
         Me.Refresh()
     End Sub
     Private Sub Boto_SegJoc_Click(sender As Object, e As EventArgs) Handles Boto_SegJoc.Click
+        desfer()
         Form1_Load()
     End Sub
     Private Sub Boto_Sortir_Click(sender As Object, e As EventArgs) Handles Boto_Sortir.Click
@@ -45,6 +47,7 @@
         guanyat = False
         esPot = False
         torn = 0
+        potAtrapar = False
         Label_Jug2.BackColor = Color.Transparent
         Label_Jug1.BackColor = Color.Crimson
 
@@ -168,9 +171,8 @@
             bloquejarTorn()
             comprovarMoviment(sender) 'mostra caselles disponibles
         Else
-            comprovarMoviment(sender) 'per trobar la casella que s'ha de fer no disponible
+            'comprovarMoviment(sender) 'per trobar la casella que s'ha de fer no disponible
             desfer()
-            premuda = -1
         End If
     End Sub
 
@@ -185,14 +187,19 @@
         End If
     End Sub
     Private Sub AtraparPeces_Click(sender As Object, e As EventArgs) Handles PeoNegre1.Click, PeoNegre2.Click, PeoNegre3.Click, PeoNegre4.Click, PeoNegre5.Click, PeoNegre6.Click, PeoNegre7.Click, PeoNegre8.Click, PeoBlanc1.Click, PeoBlanc2.Click, PeoBlanc3.Click, PeoBlanc4.Click, PeoBlanc5.Click, PeoBlanc6.Click, PeoBlanc7.Click, PeoBlanc8.Click, TorreBlanc1.Click, TorreBlanc2.Click, TorreNegre1.Click, TorreNegre2.Click, CavallBlanc1.Click, CavallBlanc2.Click, CavallNegre1.Click, CavallNegre2.Click, AlfilBlanc1.Click, AlfilBlanc2.Click, AlfilNegre1.Click, AlfilNegre2.Click, ReinaBlanc.Click, ReinaNegre.Click, ReiBlanc.Click, ReiNegre.Click
-        If sender.Parent.Tag <> "O" Then
+        If potAtrapar = True Then
             atrapar(sender)
         End If
+        potAtrapar = False
+        comprovarMoviment(sender)
     End Sub
     Public Sub atrapar(atrapat As Object)
         If esMou = True Then
-            If peces(premuda).Tag = "blanc" And atrapat.Tag = "negre" Then
+            If peces(premuda).Tag = "blanc" And atrapat.Tag = "negre" And atrapat.Parent.BorderStyle = BorderStyle.Fixed3D Then
+                atrapat.Parent.Tag = "S"
+                peces(premuda).Parent.Tag = "N"
                 peces(premuda).Parent = atrapat.Parent
+                peces(premuda).Parent.Tag = "O"
                 atrapat.Dock = DockStyle.None
                 atrapat.Left = 1129
                 atrapat.Top = 1618
@@ -204,8 +211,12 @@
                     guanyat = True
                 End If
                 comprovarTorn()
-            ElseIf peces(premuda).Tag = "negre" And atrapat.Tag = "blanc" Then
+                comprovarMoviment(peces(premuda))
+            ElseIf peces(premuda).Tag = "negre" And atrapat.Tag = "blanc" And atrapat.Parent.BorderStyle = BorderStyle.Fixed3D Then
+                atrapat.Parent.Tag = "S"
+                peces(premuda).Parent.Tag = "N"
                 peces(premuda).Parent = atrapat.Parent
+                peces(premuda).Parent.Tag = "O"
                 atrapat.Dock = DockStyle.None
                 atrapat.Left = 1129
                 atrapat.Top = 1618
@@ -217,6 +228,7 @@
                     guanyat = True
                 End If
                 comprovarTorn()
+                comprovarMoviment(peces(premuda))
             End If
         End If
     End Sub
@@ -255,9 +267,13 @@
             If PictureBox.Tag <> "O" Then
                 PictureBox.Tag = "N"
                 PictureBox.BorderStyle = BorderStyle.None
+            Else
+                PictureBox.BorderStyle = BorderStyle.None
             End If
         Next
         esMou = False
+        posicio = 0
+        potAtrapar = False
     End Sub
     Public Sub comprovarMoviment(peca As Object) 'nomes fa peons
         If esMou = True Then
@@ -275,15 +291,16 @@
                     cuadres(posicio).Tag = "S"
                 Else
                     If cuadres(posicio + 1).Tag = "O" Then
-                        posicio += 1
-                        cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                        cuadres(posicio).Tag = "S"
-                    ElseIf cuadres(posicio - 1).Tag = "O" Then
-                        posicio -= 1
-                        cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                        cuadres(posicio).Tag = "S"
+
+                        cuadres(posicio + 1).BorderStyle = BorderStyle.Fixed3D
+                        potAtrapar = True
                     End If
-                End If
+                    If cuadres(posicio - 1).Tag = "O" Then
+
+                        cuadres(posicio - 1).BorderStyle = BorderStyle.Fixed3D
+                        potAtrapar = True
+                    End If
+                    End If
 
             End If
             'Torres
