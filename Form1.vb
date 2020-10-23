@@ -32,6 +32,9 @@
     End Sub
     Private Sub Boto_SegJoc_Click(sender As Object, e As EventArgs) Handles Boto_SegJoc.Click
         desfer()
+        For Each PictureBox In cuadres
+            PictureBox.Tag = "N"
+        Next
         Form1_Load()
     End Sub
     Private Sub Boto_Sortir_Click(sender As Object, e As EventArgs) Handles Boto_Sortir.Click
@@ -46,7 +49,9 @@
         esMou = False
         guanyat = False
         esPot = False
+        premuda = -1
         torn = 0
+        comprovarTorn()
         potAtrapar = False
         Label_Jug2.BackColor = Color.Transparent
         Label_Jug1.BackColor = Color.Crimson
@@ -171,12 +176,14 @@
             bloquejarTorn()
             comprovarMoviment(sender) 'mostra caselles disponibles
         Else
-            'comprovarMoviment(sender) 'per trobar la casella que s'ha de fer no disponible
             desfer()
+            premuda = -1
         End If
+        Captures1.Text = sender.Parent.Tag
     End Sub
 
     Private Sub MovimentCuadres_Click(sender As Object, e As EventArgs) Handles Cuadre64.Click, Cuadre62.Click, Cuadre60.Click, Cuadre58.Click, Cuadre55.Click, Cuadre53.Click, Cuadre51.Click, Cuadre49.Click, Cuadre48.Click, Cuadre46.Click, Cuadre44.Click, Cuadre42.Click, Cuadre39.Click, Cuadre37.Click, Cuadre35.Click, Cuadre33.Click, Cuadre32.Click, Cuadre30.Click, Cuadre28.Click, Cuadre26.Click, Cuadre23.Click, Cuadre21.Click, Cuadre19.Click, Cuadre17.Click, Cuadre16.Click, Cuadre14.Click, Cuadre12.Click, Cuadre10.Click, Cuadre7.Click, Cuadre5.Click, Cuadre3.Click, Cuadre1.Click, Cuadre63.Click, Cuadre61.Click, Cuadre59.Click, Cuadre57.Click, Cuadre56.Click, Cuadre54.Click, Cuadre52.Click, Cuadre50.Click, Cuadre47.Click, Cuadre45.Click, Cuadre43.Click, Cuadre41.Click, Cuadre40.Click, Cuadre38.Click, Cuadre36.Click, Cuadre34.Click, Cuadre31.Click, Cuadre29.Click, Cuadre27.Click, Cuadre25.Click, Cuadre24.Click, Cuadre22.Click, Cuadre20.Click, Cuadre18.Click, Cuadre15.Click, Cuadre13.Click, Cuadre11.Click, Cuadre9.Click, Cuadre8.Click, Cuadre6.Click, Cuadre4.Click, Cuadre2.Click
+        bloquejarTorn()
         Dim temp = Array.IndexOf(cuadres, sender)
         If esMou = True And cuadres(temp).Tag = "S" Then
             peces(premuda).Parent.Tag = "N"
@@ -185,13 +192,22 @@
             desfer()
             comprovarTorn()
         End If
+        Captures1.Text = sender.Tag
     End Sub
     Private Sub AtraparPeces_Click(sender As Object, e As EventArgs) Handles PeoNegre1.Click, PeoNegre2.Click, PeoNegre3.Click, PeoNegre4.Click, PeoNegre5.Click, PeoNegre6.Click, PeoNegre7.Click, PeoNegre8.Click, PeoBlanc1.Click, PeoBlanc2.Click, PeoBlanc3.Click, PeoBlanc4.Click, PeoBlanc5.Click, PeoBlanc6.Click, PeoBlanc7.Click, PeoBlanc8.Click, TorreBlanc1.Click, TorreBlanc2.Click, TorreNegre1.Click, TorreNegre2.Click, CavallBlanc1.Click, CavallBlanc2.Click, CavallNegre1.Click, CavallNegre2.Click, AlfilBlanc1.Click, AlfilBlanc2.Click, AlfilNegre1.Click, AlfilNegre2.Click, ReinaBlanc.Click, ReinaNegre.Click, ReiBlanc.Click, ReiNegre.Click
-        If potAtrapar = True Then
-            atrapar(sender)
+        If esMou = True Then
+            If peces(premuda).Tag = "blanc" And sender.Tag = "negre" Then
+                If potAtrapar = True Then
+                    atrapar(sender)
+                End If
+            End If
+            If peces(premuda).Tag = "negre" And sender.Tag = "blanc" Then
+                If potAtrapar = True Then
+                    atrapar(sender)
+                End If
+            End If
+            potAtrapar = False
         End If
-        potAtrapar = False
-        comprovarMoviment(sender)
     End Sub
     Public Sub atrapar(atrapat As Object)
         If esMou = True Then
@@ -203,12 +219,13 @@
                 atrapat.Dock = DockStyle.None
                 atrapat.Left = 1129
                 atrapat.Top = 1618
-                Captures1.Text = Captures1.Text + 1
+                'Captures1.Text = Captures1.Text + 1
                 cuadres(posicio).BorderStyle = BorderStyle.None
                 If atrapat.Equals(ReiNegre) Then
                     victories1 += 1
                     Dim response As MsgBoxResult = MsgBox("Guanya el jugador 1!", MsgBoxStyle.Information, "Resultat")
                     guanyat = True
+                    desfer()
                 End If
                 comprovarTorn()
                 comprovarMoviment(peces(premuda))
@@ -226,6 +243,7 @@
                     victories2 += 1
                     Dim response As MsgBoxResult = MsgBox("Guanya el jugador 2!", MsgBoxStyle.Information, "Resultat")
                     guanyat = True
+                    desfer()
                 End If
                 comprovarTorn()
                 comprovarMoviment(peces(premuda))
@@ -246,37 +264,40 @@
         End If
     End Sub
     Public Sub bloquejarTorn()
-        If guanyat = False Then
-            If torn = 0 And peces(premuda).Tag = "negre" Then
-                Dim response As MsgBoxResult = MsgBox("Es el torn del jugador 1!", MsgBoxStyle.Information, "Torn")
+        If esMou = True Then
+            If guanyat = False Then
+                If torn = 0 And peces(premuda).Tag = "negre" Then
+                    Dim response As MsgBoxResult = MsgBox("Es el torn del jugador 1!", MsgBoxStyle.Information, "Torn")
+                    desfer()
+                End If
+                If torn = 1 And peces(premuda).Tag = "blanc" Then
+                    Dim response As MsgBoxResult = MsgBox("Es el torn del jugador 2!", MsgBoxStyle.Information, "Torn")
+                    desfer()
+                End If
+            Else
+                Dim response As MsgBoxResult = MsgBox("Fi de la partida!", MsgBoxStyle.Information, "Torn")
                 desfer()
             End If
-            If torn = 1 And peces(premuda).Tag = "blanc" Then
-                Dim response As MsgBoxResult = MsgBox("Es el torn del jugador 2!", MsgBoxStyle.Information, "Torn")
-                desfer()
-            End If
-        Else
-            Dim response As MsgBoxResult = MsgBox("Fi de la partida!", MsgBoxStyle.Information, "Torn")
-            desfer()
         End If
+
     End Sub
     Public Sub desfer()
-        peces(premuda).BackColor = Color.Transparent
-        cuadres(posicio).BorderStyle = BorderStyle.None
+        For Each PictureBox In peces
+            PictureBox.BackColor = Color.Transparent
+            PictureBox.Parent.Tag = "O"
+        Next
         For Each PictureBox In cuadres
             If PictureBox.Tag <> "O" Then
                 PictureBox.Tag = "N"
-                PictureBox.BorderStyle = BorderStyle.None
-            Else
-                PictureBox.BorderStyle = BorderStyle.None
             End If
+            PictureBox.BorderStyle = BorderStyle.None
         Next
         esMou = False
         posicio = 0
         potAtrapar = False
     End Sub
     Public Sub comprovarMoviment(peca As Object) 'nomes fa peons
-        If esMou = True Then
+        If esMou = True And guanyat = False Then
             'Peons
             If peca.Equals(PeoBlanc1) Or peca.Equals(PeoBlanc2) Or peca.Equals(PeoBlanc3) Or peca.Equals(PeoBlanc4) Or peca.Equals(PeoBlanc5) Or peca.Equals(PeoBlanc6) Or peca.Equals(PeoBlanc7) Or peca.Equals(PeoBlanc8) Or peca.Equals(PeoNegre1) Or peca.Equals(PeoNegre2) Or peca.Equals(PeoNegre3) Or peca.Equals(PeoNegre4) Or peca.Equals(PeoNegre5) Or peca.Equals(PeoNegre6) Or peca.Equals(PeoNegre7) Or peca.Equals(PeoNegre8) Then
                 posicio = Array.IndexOf(cuadres, peca.Parent)
@@ -289,24 +310,53 @@
                 If cuadres(posicio).Tag <> "O" Then
                     cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
                     cuadres(posicio).Tag = "S"
-                Else
-                    If cuadres(posicio + 1).Tag = "O" Then
-
-                        cuadres(posicio + 1).BorderStyle = BorderStyle.Fixed3D
-                        potAtrapar = True
-                    End If
-                    If cuadres(posicio - 1).Tag = "O" Then
-
-                        cuadres(posicio - 1).BorderStyle = BorderStyle.Fixed3D
-                        potAtrapar = True
-                    End If
-                    End If
-
+                End If
+                If cuadres(posicio + 1).Tag = "O" Then
+                    cuadres(posicio + 1).BorderStyle = BorderStyle.Fixed3D
+                    potAtrapar = True
+                End If
+                If cuadres(posicio - 1).Tag = "O" Then
+                    cuadres(posicio - 1).BorderStyle = BorderStyle.Fixed3D
+                    potAtrapar = True
+                End If
             End If
             'Torres
-
+            If peca.Equals(TorreBlanc1) Or peca.Equals(TorreBlanc2) Or peca.Equals(TorreNegre1) Or peca.Equals(TorreNegre2) Then
+                posicio = Array.IndexOf(cuadres, peca.Parent)
+                Dim i As Int32 = (posicio Mod 8) - 1
+                Dim lloc As Int32 = posicio - 1
+                While i >= 0
+                    cuadres(lloc).BorderStyle = BorderStyle.Fixed3D
+                    cuadres(lloc).Tag = "S"
+                    lloc -= 1
+                    i -= 1
+                End While
+                i = (posicio Mod 8) + 1
+                lloc = posicio + 1
+                While i < 8
+                    cuadres(lloc).BorderStyle = BorderStyle.Fixed3D
+                    cuadres(lloc).Tag = "S"
+                    lloc += 1
+                    i += 1
+                End While
+                While posicio < 56
+                    posicio += 8
+                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                    cuadres(posicio).Tag = "S"
+                    potAtrapar = True
+                End While
+                While posicio > 7
+                    posicio -= 8
+                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                    cuadres(posicio).Tag = "S"
+                    potAtrapar = True
+                End While
+            End If
             'Cavalls
+            If peca.Equals(CavallBlanc1) Or peca.Equals(CavallBlanc2) Or peca.Equals(CavallNegre1) Or peca.Equals(CavallNegre2) Then
+                posicio = Array.IndexOf(cuadres, peca.Parent)
 
+            End If
             'Alfils
 
             'Reines
