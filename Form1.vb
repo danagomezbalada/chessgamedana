@@ -57,104 +57,136 @@
         Label_Jug1.BackColor = Color.Crimson
 
         'Peons Negres
+        PeoNegre1.Tag = "negre"
         PeoNegre1.Parent = Cuadre49
         PeoNegre1.Dock = DockStyle.Fill
         PeoNegre1.Parent.Tag = "O"
+        PeoNegre2.Tag = "negre"
         PeoNegre2.Parent = Cuadre50
         PeoNegre2.Dock = DockStyle.Fill
         PeoNegre2.Parent.Tag = "O"
+        PeoNegre3.Tag = "negre"
         PeoNegre3.Parent = Cuadre51
         PeoNegre3.Dock = DockStyle.Fill
         PeoNegre3.Parent.Tag = "O"
+        PeoNegre4.Tag = "negre"
         PeoNegre4.Parent = Cuadre52
         PeoNegre4.Dock = DockStyle.Fill
         PeoNegre4.Parent.Tag = "O"
+        PeoNegre5.Tag = "negre"
         PeoNegre5.Parent = Cuadre53
         PeoNegre5.Dock = DockStyle.Fill
         PeoNegre5.Parent.Tag = "O"
+        PeoNegre6.Tag = "negre"
         PeoNegre6.Parent = Cuadre54
         PeoNegre6.Dock = DockStyle.Fill
         PeoNegre6.Parent.Tag = "O"
+        PeoNegre7.Tag = "negre"
         PeoNegre7.Parent = Cuadre55
         PeoNegre7.Dock = DockStyle.Fill
         PeoNegre7.Parent.Tag = "O"
+        PeoNegre8.Tag = "negre"
         PeoNegre8.Parent = Cuadre56
         PeoNegre8.Dock = DockStyle.Fill
         PeoNegre8.Parent.Tag = "O"
         'Peons Blancs
+        PeoBlanc1.Tag = "blanc"
         PeoBlanc1.Parent = Cuadre9
         PeoBlanc1.Dock = DockStyle.Fill
         PeoBlanc1.Parent.Tag = "O"
+        PeoBlanc2.Tag = "blanc"
         PeoBlanc2.Parent = Cuadre10
         PeoBlanc2.Dock = DockStyle.Fill
         PeoBlanc2.Parent.Tag = "O"
+        PeoBlanc3.Tag = "blanc"
         PeoBlanc3.Parent = Cuadre11
         PeoBlanc3.Dock = DockStyle.Fill
         PeoBlanc3.Parent.Tag = "O"
+        PeoBlanc4.Tag = "blanc"
         PeoBlanc4.Parent = Cuadre12
         PeoBlanc4.Dock = DockStyle.Fill
         PeoBlanc4.Parent.Tag = "O"
+        PeoBlanc5.Tag = "blanc"
         PeoBlanc5.Parent = Cuadre13
         PeoBlanc5.Dock = DockStyle.Fill
         PeoBlanc5.Parent.Tag = "O"
+        PeoBlanc6.Tag = "blanc"
         PeoBlanc6.Parent = Cuadre14
         PeoBlanc6.Dock = DockStyle.Fill
         PeoBlanc6.Parent.Tag = "O"
+        PeoBlanc7.Tag = "blanc"
         PeoBlanc7.Parent = Cuadre15
         PeoBlanc7.Dock = DockStyle.Fill
         PeoBlanc7.Parent.Tag = "O"
+        PeoBlanc8.Tag = "blanc"
         PeoBlanc8.Parent = Cuadre16
         PeoBlanc8.Dock = DockStyle.Fill
         PeoBlanc8.Parent.Tag = "O"
         'Torres
+        TorreBlanc1.Tag = "blanc"
         TorreBlanc1.Parent = Cuadre1
         TorreBlanc1.Dock = DockStyle.Fill
         TorreBlanc1.Parent.Tag = "O"
+        TorreBlanc2.Tag = "blanc"
         TorreBlanc2.Parent = Cuadre8
         TorreBlanc2.Dock = DockStyle.Fill
         TorreBlanc2.Parent.Tag = "O"
+        TorreNegre1.Tag = "negre"
         TorreNegre1.Parent = Cuadre57
         TorreNegre1.Dock = DockStyle.Fill
         TorreNegre1.Parent.Tag = "O"
+        TorreNegre2.Tag = "negre"
         TorreNegre2.Parent = Cuadre64
         TorreNegre2.Dock = DockStyle.Fill
         TorreNegre2.Parent.Tag = "O"
         'Cavalls
+        CavallBlanc1.Tag = "blanc"
         CavallBlanc1.Parent = Cuadre2
         CavallBlanc1.Dock = DockStyle.Fill
         CavallBlanc1.Parent.Tag = "O"
+        CavallBlanc2.Tag = "blanc"
         CavallBlanc2.Parent = Cuadre7
         CavallBlanc2.Dock = DockStyle.Fill
         CavallBlanc2.Parent.Tag = "O"
+        CavallNegre1.Tag = "negre"
         CavallNegre1.Parent = Cuadre58
         CavallNegre1.Dock = DockStyle.Fill
         CavallNegre1.Parent.Tag = "O"
+        CavallNegre2.Tag = "negre"
         CavallNegre2.Parent = Cuadre63
         CavallNegre2.Dock = DockStyle.Fill
         CavallNegre2.Parent.Tag = "O"
         'Alfil
+        AlfilBlanc1.Tag = "blanc"
         AlfilBlanc1.Parent = Cuadre3
         AlfilBlanc1.Dock = DockStyle.Fill
         AlfilBlanc1.Parent.Tag = "O"
+        AlfilBlanc2.Tag = "blanc"
         AlfilBlanc2.Parent = Cuadre6
         AlfilBlanc2.Dock = DockStyle.Fill
         AlfilBlanc2.Parent.Tag = "O"
+        AlfilNegre1.Tag = "negre"
         AlfilNegre1.Parent = Cuadre59
         AlfilNegre1.Dock = DockStyle.Fill
         AlfilNegre1.Parent.Tag = "O"
+        AlfilNegre2.Tag = "negre"
         AlfilNegre2.Parent = Cuadre62
         AlfilNegre2.Dock = DockStyle.Fill
         AlfilNegre2.Parent.Tag = "O"
         'Reina i rei
+        ReinaBlanc.Tag = "blanc"
         ReinaBlanc.Parent = Cuadre5
         ReinaBlanc.Dock = DockStyle.Fill
         ReinaBlanc.Parent.Tag = "O"
+        ReinaNegre.Tag = "negre"
         ReinaNegre.Parent = Cuadre61
         ReinaNegre.Dock = DockStyle.Fill
         ReinaNegre.Parent.Tag = "O"
+        ReiBlanc.Tag = "blanc"
         ReiBlanc.Parent = Cuadre4
         ReiBlanc.Dock = DockStyle.Fill
         ReiBlanc.Parent.Tag = "O"
+        ReiNegre.Tag = "negre"
         ReiNegre.Parent = Cuadre60
         ReiNegre.Dock = DockStyle.Fill
         ReiNegre.Parent.Tag = "O"
@@ -179,7 +211,6 @@
             desfer()
             premuda = -1
         End If
-        Captures1.Text = sender.Parent.Tag
     End Sub
 
     Private Sub MovimentCuadres_Click(sender As Object, e As EventArgs) Handles Cuadre64.Click, Cuadre62.Click, Cuadre60.Click, Cuadre58.Click, Cuadre55.Click, Cuadre53.Click, Cuadre51.Click, Cuadre49.Click, Cuadre48.Click, Cuadre46.Click, Cuadre44.Click, Cuadre42.Click, Cuadre39.Click, Cuadre37.Click, Cuadre35.Click, Cuadre33.Click, Cuadre32.Click, Cuadre30.Click, Cuadre28.Click, Cuadre26.Click, Cuadre23.Click, Cuadre21.Click, Cuadre19.Click, Cuadre17.Click, Cuadre16.Click, Cuadre14.Click, Cuadre12.Click, Cuadre10.Click, Cuadre7.Click, Cuadre5.Click, Cuadre3.Click, Cuadre1.Click, Cuadre63.Click, Cuadre61.Click, Cuadre59.Click, Cuadre57.Click, Cuadre56.Click, Cuadre54.Click, Cuadre52.Click, Cuadre50.Click, Cuadre47.Click, Cuadre45.Click, Cuadre43.Click, Cuadre41.Click, Cuadre40.Click, Cuadre38.Click, Cuadre36.Click, Cuadre34.Click, Cuadre31.Click, Cuadre29.Click, Cuadre27.Click, Cuadre25.Click, Cuadre24.Click, Cuadre22.Click, Cuadre20.Click, Cuadre18.Click, Cuadre15.Click, Cuadre13.Click, Cuadre11.Click, Cuadre9.Click, Cuadre8.Click, Cuadre6.Click, Cuadre4.Click, Cuadre2.Click
@@ -192,19 +223,14 @@
             desfer()
             comprovarTorn()
         End If
-        Captures1.Text = sender.Tag
     End Sub
     Private Sub AtraparPeces_Click(sender As Object, e As EventArgs) Handles PeoNegre1.Click, PeoNegre2.Click, PeoNegre3.Click, PeoNegre4.Click, PeoNegre5.Click, PeoNegre6.Click, PeoNegre7.Click, PeoNegre8.Click, PeoBlanc1.Click, PeoBlanc2.Click, PeoBlanc3.Click, PeoBlanc4.Click, PeoBlanc5.Click, PeoBlanc6.Click, PeoBlanc7.Click, PeoBlanc8.Click, TorreBlanc1.Click, TorreBlanc2.Click, TorreNegre1.Click, TorreNegre2.Click, CavallBlanc1.Click, CavallBlanc2.Click, CavallNegre1.Click, CavallNegre2.Click, AlfilBlanc1.Click, AlfilBlanc2.Click, AlfilNegre1.Click, AlfilNegre2.Click, ReinaBlanc.Click, ReinaNegre.Click, ReiBlanc.Click, ReiNegre.Click
-        If esMou = True Then
+        If esMou = True And potAtrapar = True Then
             If peces(premuda).Tag = "blanc" And sender.Tag = "negre" Then
-                If potAtrapar = True Then
-                    atrapar(sender)
-                End If
+                atrapar(sender)
             End If
             If peces(premuda).Tag = "negre" And sender.Tag = "blanc" Then
-                If potAtrapar = True Then
-                    atrapar(sender)
-                End If
+                atrapar(sender)
             End If
             potAtrapar = False
         End If
@@ -219,7 +245,8 @@
                 atrapat.Dock = DockStyle.None
                 atrapat.Left = 1129
                 atrapat.Top = 1618
-                'Captures1.Text = Captures1.Text + 1
+                atrapat.Tag = "atrapat"
+                Captures1.Text = Captures1.Text + 1
                 cuadres(posicio).BorderStyle = BorderStyle.None
                 If atrapat.Equals(ReiNegre) Then
                     victories1 += 1
@@ -237,6 +264,7 @@
                 atrapat.Dock = DockStyle.None
                 atrapat.Left = 1129
                 atrapat.Top = 1618
+                atrapat.Tag = "atrapat"
                 Captures2.Text = Captures2.Text + 1
                 cuadres(posicio).BorderStyle = BorderStyle.None
                 If atrapat.Equals(ReiBlanc) Then
@@ -284,7 +312,9 @@
     Public Sub desfer()
         For Each PictureBox In peces
             PictureBox.BackColor = Color.Transparent
-            PictureBox.Parent.Tag = "O"
+            If PictureBox.Tag <> "atrapat" Then
+                PictureBox.Parent.Tag = "O"
+            End If
         Next
         For Each PictureBox In cuadres
             If PictureBox.Tag <> "O" Then
@@ -296,7 +326,7 @@
         posicio = 0
         potAtrapar = False
     End Sub
-    Public Sub comprovarMoviment(peca As Object) 'nomes fa peons
+    Public Sub comprovarMoviment(peca As Object)
         If esMou = True And guanyat = False Then
             'Peons
             If peca.Equals(PeoBlanc1) Or peca.Equals(PeoBlanc2) Or peca.Equals(PeoBlanc3) Or peca.Equals(PeoBlanc4) Or peca.Equals(PeoBlanc5) Or peca.Equals(PeoBlanc6) Or peca.Equals(PeoBlanc7) Or peca.Equals(PeoBlanc8) Or peca.Equals(PeoNegre1) Or peca.Equals(PeoNegre2) Or peca.Equals(PeoNegre3) Or peca.Equals(PeoNegre4) Or peca.Equals(PeoNegre5) Or peca.Equals(PeoNegre6) Or peca.Equals(PeoNegre7) Or peca.Equals(PeoNegre8) Then
@@ -358,15 +388,42 @@
 
             End If
             'Alfils
-
+            If peca.Equals(AlfilBlanc1) Or peca.Equals(AlfilBlanc2) Or peca.Equals(AlfilNegre1) Or peca.Equals(AlfilNegre2) Then
+                posicio = Array.IndexOf(cuadres, peca.Parent)
+                Dim posicio2 As Int32 = posicio
+                Dim i As Int32 = (posicio Mod 8) + 1
+                While posicio < 56 And posicio2 < 56 And i < 8
+                    posicio += 7
+                    posicio2 += 9
+                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                    cuadres(posicio).Tag = "S"
+                    cuadres(posicio2).BorderStyle = BorderStyle.Fixed3D
+                    cuadres(posicio2).Tag = "S"
+                    potAtrapar = True
+                    i += 1
+                End While
+                i = (posicio Mod 8) - 1
+                While posicio > 7 And posicio2 > 7 And i >= 0
+                    posicio -= 7
+                    posicio2 -= 9
+                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                    cuadres(posicio).Tag = "S"
+                    cuadres(posicio2).BorderStyle = BorderStyle.Fixed3D
+                    cuadres(posicio2).Tag = "S"
+                    potAtrapar = True
+                    i -= 1
+                End While
+            End If
             'Reines
+            If peca.Equals(ReinaBlanc) Or peca.Equals(ReinaNegre) Then
+                posicio = Array.IndexOf(cuadres, peca.Parent)
 
+            End If
             'Reis
+            If peca.Equals(ReiBlanc) Or peca.Equals(ReiNegre) Then
+                posicio = Array.IndexOf(cuadres, peca.Parent)
 
-            'Comprovar caselles disponibles:
-            '   -Les caselles ocupades tenen un tag "O"
-            '   -Dona tag de "S" a totes les caselles (que compleixin les normes de la peca) menys les ocupades
-            '   -Quan una peca canvia de Parent, aquest rep el tag d'O, i la casella anterior rep un tag de "N"
+            End If
         End If
     End Sub
 End Class
