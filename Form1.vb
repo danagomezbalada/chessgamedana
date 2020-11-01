@@ -337,21 +337,26 @@
                 If peca.Tag = "negre" Then
                     posicio -= 8
                 End If
-                If cuadres(posicio).Tag <> "O" Then
-                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(posicio).Tag = "S"
+                If posicio <= 64 And posicio >= 0 Then
+                    If cuadres(posicio).Tag <> "O" Then
+                        cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                        cuadres(posicio).Tag = "S"
+                    End If
+                    If (posicio Mod 8) - 1 >= 0 And (posicio Mod 8) + 1 < 8 Then
+                        If cuadres(posicio + 1).Tag = "O" Then
+                            cuadres(posicio + 1).BorderStyle = BorderStyle.Fixed3D
+                            potAtrapar = True
+                        End If
+                        If cuadres(posicio - 1).Tag = "O" Then
+                            cuadres(posicio - 1).BorderStyle = BorderStyle.Fixed3D
+                            potAtrapar = True
+                        End If
+                    End If
                 End If
-                If cuadres(posicio + 1).Tag = "O" Then
-                    cuadres(posicio + 1).BorderStyle = BorderStyle.Fixed3D
-                    potAtrapar = True
-                End If
-                If cuadres(posicio - 1).Tag = "O" Then
-                    cuadres(posicio - 1).BorderStyle = BorderStyle.Fixed3D
-                    potAtrapar = True
-                End If
+
             End If
-            'Torres
-            If peca.Equals(TorreBlanc1) Or peca.Equals(TorreBlanc2) Or peca.Equals(TorreNegre1) Or peca.Equals(TorreNegre2) Then
+                'Torres
+                If peca.Equals(TorreBlanc1) Or peca.Equals(TorreBlanc2) Or peca.Equals(TorreNegre1) Or peca.Equals(TorreNegre2) Then
                 posicio = Array.IndexOf(cuadres, peca.Parent)
                 Dim i As Int32 = (posicio Mod 8) - 1
                 Dim lloc As Int32 = posicio - 1
@@ -392,26 +397,44 @@
                 posicio = Array.IndexOf(cuadres, peca.Parent)
                 Dim posicio2 As Int32 = posicio
                 Dim i As Int32 = (posicio Mod 8) + 1
-                While posicio < 56 And posicio2 < 56 And i < 8
+                While posicio < 56 Or posicio2 < 56
                     posicio += 7
+                    i = (posicio Mod 8) + 1
                     posicio2 += 9
-                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(posicio).Tag = "S"
-                    cuadres(posicio2).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(posicio2).Tag = "S"
+                    If posicio < 64 And i < 8 Then
+                        cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                        cuadres(posicio).Tag = "S"
+                    Else
+                        posicio = 67
+                    End If
+                    If posicio2 < 64 And (posicio2 Mod 8) - 1 >= 0 Then
+                        cuadres(posicio2).BorderStyle = BorderStyle.Fixed3D
+                        cuadres(posicio2).Tag = "S"
+                    Else
+                        posicio2 = 67
+                    End If
                     potAtrapar = True
-                    i += 1
                 End While
+                posicio = Array.IndexOf(cuadres, peca.Parent)
+                posicio2 = posicio
                 i = (posicio Mod 8) - 1
-                While posicio > 7 And posicio2 > 7 And i >= 0
+                While posicio > 0 Or posicio2 > 0
                     posicio -= 7
+                    i = (posicio Mod 8) - 1
                     posicio2 -= 9
-                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(posicio).Tag = "S"
-                    cuadres(posicio2).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(posicio2).Tag = "S"
+                    If posicio > 0 And i >= 0 Then
+                        cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                        cuadres(posicio).Tag = "S"
+                    Else
+                        posicio = -1
+                    End If
+                    If posicio2 > 0 And (posicio2 Mod 8) + 1 < 8 Then
+                        cuadres(posicio2).BorderStyle = BorderStyle.Fixed3D
+                        cuadres(posicio2).Tag = "S"
+                    Else
+                        posicio2 = -1
+                    End If
                     potAtrapar = True
-                    i -= 1
                 End While
             End If
             'Reines
