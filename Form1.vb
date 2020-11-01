@@ -7,23 +7,24 @@
     Dim victories2 As Int32 = 0
     Dim torn As Int32 = 0 '0=Blanc 1=Negre
     Dim guanyat As Boolean = False
-    Dim esPot As Boolean = False
     Dim posicio As Int32
     Dim potAtrapar As Boolean = False
 
     Dim ex, ey As Integer
-    Dim Arrastre As Boolean
+    Dim arrossega As Boolean
 
     Private Sub Form1_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles MyBase.MouseDown
         ex = e.X
         ey = e.Y
-        Arrastre = True
+        arrossega = True
     End Sub
     Private Sub Form1_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles MyBase.MouseUp
-        Arrastre = False
+        arrossega = False
     End Sub
     Private Sub Form1_MouseMove(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles MyBase.MouseMove
-        If Arrastre Then Me.Location = Me.PointToScreen(New Point(MousePosition.X - Me.Location.X - ex, MousePosition.Y - Me.Location.Y - ey))
+        If arrossega Then
+            Me.Location = Me.PointToScreen(New Point(MousePosition.X - Me.Location.X - ex, MousePosition.Y - Me.Location.Y - ey))
+        End If
     End Sub
 
     Private Sub Boto_NovaP_Click(sender As Object, e As EventArgs) Handles Boto_NovaP.Click
@@ -48,7 +49,6 @@
     Private Sub Form1_Load() Handles MyBase.Load
         esMou = False
         guanyat = False
-        esPot = False
         premuda = -1
         torn = 0
         comprovarTorn()
