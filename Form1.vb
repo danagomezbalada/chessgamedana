@@ -330,252 +330,198 @@
         If esMou = True And guanyat = False Then
             'Peons
             If peca.Equals(PeoBlanc1) Or peca.Equals(PeoBlanc2) Or peca.Equals(PeoBlanc3) Or peca.Equals(PeoBlanc4) Or peca.Equals(PeoBlanc5) Or peca.Equals(PeoBlanc6) Or peca.Equals(PeoBlanc7) Or peca.Equals(PeoBlanc8) Or peca.Equals(PeoNegre1) Or peca.Equals(PeoNegre2) Or peca.Equals(PeoNegre3) Or peca.Equals(PeoNegre4) Or peca.Equals(PeoNegre5) Or peca.Equals(PeoNegre6) Or peca.Equals(PeoNegre7) Or peca.Equals(PeoNegre8) Then
-                posicio = Array.IndexOf(cuadres, peca.Parent)
-                If peca.Tag = "blanc" Then
-                    posicio += 8
-                End If
-                If peca.Tag = "negre" Then
-                    posicio -= 8
-                End If
-                If posicio <= 64 And posicio >= 0 Then
-                    If cuadres(posicio).Tag <> "O" Then
-                        cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                        cuadres(posicio).Tag = "S"
-                    End If
-                    posicio += 1
-                    If (posicio Mod 8) < 8 And (posicio Mod 8) - 1 >= 0 Then
-                        If cuadres(posicio).Tag = "O" Then
-                            cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                            potAtrapar = True
-                        End If
-                    End If
-                    posicio -= 2
-                    If (posicio Mod 8) >= 0 And (posicio Mod 8) + 1 < 8 Then
-                        If cuadres(posicio).Tag = "O" Then
-                            cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                            potAtrapar = True
-                        End If
-                    End If
-                End If
+                peons(peca)
             End If
             'Torres
             If peca.Equals(TorreBlanc1) Or peca.Equals(TorreBlanc2) Or peca.Equals(TorreNegre1) Or peca.Equals(TorreNegre2) Then
-                posicio = Array.IndexOf(cuadres, peca.Parent)
-                Dim i As Int32 = (posicio Mod 8) - 1
-                Dim lloc As Int32 = posicio - 1
-                While i >= 0
-                    cuadres(lloc).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(lloc).Tag = "S"
-                    lloc -= 1
-                    i -= 1
-                End While
-                i = (posicio Mod 8) + 1
-                lloc = posicio + 1
-                While i < 8
-                    cuadres(lloc).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(lloc).Tag = "S"
-                    lloc += 1
-                    i += 1
-                End While
-                While posicio < 56
-                    posicio += 8
-                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(posicio).Tag = "S"
-                    potAtrapar = True
-                End While
-                While posicio > 7
-                    posicio -= 8
-                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(posicio).Tag = "S"
-                    potAtrapar = True
-                End While
+                torres(peca)
             End If
             'Cavalls
             If peca.Equals(CavallBlanc1) Or peca.Equals(CavallBlanc2) Or peca.Equals(CavallNegre1) Or peca.Equals(CavallNegre2) Then
-                posicio = Array.IndexOf(cuadres, peca.Parent)
-                Dim i As Int32 = 0
-                While i < 8
-                    posicio = Array.IndexOf(cuadres, peca.Parent)
-                    If posicio <= 64 And posicio >= 0 Then
-                        If i = 0 Then
-                            posicio += 17
-                        ElseIf i = 1 Then
-                            posicio += 15
-                        ElseIf i = 2 Then
-                            posicio += 6
-                        ElseIf i = 3 Then
-                            posicio += 10
-                        ElseIf i = 4 Then
-                            posicio -= 17
-                        ElseIf i = 5 Then
-                            posicio -= 15
-                        ElseIf i = 6 Then
-                            posicio -= 6
-                        ElseIf i = 7 Then
-                            posicio -= 10
-                        End If
-                        If posicio < 64 And posicio >= 0 And ((posicio Mod 8) - 1 >= 0 And (posicio Mod 8) + 1 < 8) Then
-                            cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                            cuadres(posicio).Tag = "S"
-                            potAtrapar = True
-                        End If
-                    End If
-                    i += 1
-                End While
+                cavalls(peca)
             End If
             'Alfils
             If peca.Equals(AlfilBlanc1) Or peca.Equals(AlfilBlanc2) Or peca.Equals(AlfilNegre1) Or peca.Equals(AlfilNegre2) Then
-                posicio = Array.IndexOf(cuadres, peca.Parent)
-                Dim posicio2 As Int32 = posicio
-                Dim i As Int32 = (posicio Mod 8) + 1
-                While posicio < 56 Or posicio2 < 56
-                    posicio += 7
-                    i = (posicio Mod 8) + 1
-                    posicio2 += 9
-                    If posicio < 64 And i < 8 Then
-                        cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                        cuadres(posicio).Tag = "S"
-                    Else
-                        posicio = 67
-                    End If
-                    If posicio2 < 64 And (posicio2 Mod 8) - 1 >= 0 Then
-                        cuadres(posicio2).BorderStyle = BorderStyle.Fixed3D
-                        cuadres(posicio2).Tag = "S"
-                    Else
-                        posicio2 = 67
-                    End If
-                    potAtrapar = True
-                End While
-                posicio = Array.IndexOf(cuadres, peca.Parent)
-                posicio2 = posicio
-                i = (posicio Mod 8) - 1
-                While posicio > 0 Or posicio2 > 0
-                    posicio -= 7
-                    i = (posicio Mod 8) - 1
-                    posicio2 -= 9
-                    If posicio > 0 And i >= 0 Then
-                        cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                        cuadres(posicio).Tag = "S"
-                    Else
-                        posicio = -1
-                    End If
-                    If posicio2 > 0 And (posicio2 Mod 8) + 1 < 8 Then
-                        cuadres(posicio2).BorderStyle = BorderStyle.Fixed3D
-                        cuadres(posicio2).Tag = "S"
-                    Else
-                        posicio2 = -1
-                    End If
-                    potAtrapar = True
-                End While
+                alfils(peca)
             End If
             'Reines
             If peca.Equals(ReinaBlanc) Or peca.Equals(ReinaNegre) Then
-                posicio = Array.IndexOf(cuadres, peca.Parent)
-                Dim i As Int32 = (posicio Mod 8) - 1
-                Dim lloc As Int32 = posicio - 1
-                While i >= 0
-                    cuadres(lloc).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(lloc).Tag = "S"
-                    lloc -= 1
-                    i -= 1
-                End While
-                i = (posicio Mod 8) + 1
-                lloc = posicio + 1
-                While i < 8
-                    cuadres(lloc).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(lloc).Tag = "S"
-                    lloc += 1
-                    i += 1
-                End While
-                While posicio < 56
-                    posicio += 8
-                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(posicio).Tag = "S"
-                    potAtrapar = True
-                End While
-                While posicio > 7
-                    posicio -= 8
-                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                    cuadres(posicio).Tag = "S"
-                    potAtrapar = True
-                End While
-                posicio = Array.IndexOf(cuadres, peca.Parent)
-                Dim posicio2 As Int32 = posicio
-                i = (posicio Mod 8) + 1
-                While posicio < 56 Or posicio2 < 56
-                    posicio += 7
-                    i = (posicio Mod 8) + 1
-                    posicio2 += 9
-                    If posicio < 64 And i < 8 Then
-                        cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                        cuadres(posicio).Tag = "S"
-                    Else
-                        posicio = 67
-                    End If
-                    If posicio2 < 64 And (posicio2 Mod 8) - 1 >= 0 Then
-                        cuadres(posicio2).BorderStyle = BorderStyle.Fixed3D
-                        cuadres(posicio2).Tag = "S"
-                    Else
-                        posicio2 = 67
-                    End If
-                    potAtrapar = True
-                End While
-                posicio = Array.IndexOf(cuadres, peca.Parent)
-                posicio2 = posicio
-                i = (posicio Mod 8) - 1
-                While posicio > 0 Or posicio2 > 0
-                    posicio -= 7
-                    i = (posicio Mod 8) - 1
-                    posicio2 -= 9
-                    If posicio > 0 And i >= 0 Then
-                        cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                        cuadres(posicio).Tag = "S"
-                    Else
-                        posicio = -1
-                    End If
-                    If posicio2 > 0 And (posicio2 Mod 8) + 1 < 8 Then
-                        cuadres(posicio2).BorderStyle = BorderStyle.Fixed3D
-                        cuadres(posicio2).Tag = "S"
-                    Else
-                        posicio2 = -1
-                    End If
-                    potAtrapar = True
-                End While
+                torres(peca)
+                alfils(peca)
             End If
             'Reis
             If peca.Equals(ReiBlanc) Or peca.Equals(ReiNegre) Then
-                posicio = Array.IndexOf(cuadres, peca.Parent)
-                Dim i As Int32 = 0
-                While i < 8
-                    posicio = Array.IndexOf(cuadres, peca.Parent)
-                    If posicio <= 64 And posicio >= 0 Then
-                        If i = 0 Then
-                            posicio += 1
-                        ElseIf i = 1 Then
-                            posicio += 7
-                        ElseIf i = 2 Then
-                            posicio += 8
-                        ElseIf i = 3 Then
-                            posicio += 9
-                        ElseIf i = 4 Then
-                            posicio -= 1
-                        ElseIf i = 5 Then
-                            posicio -= 7
-                        ElseIf i = 6 Then
-                            posicio -= 8
-                        ElseIf i = 7 Then
-                            posicio -= 9
-                        End If
-                        If posicio < 64 And posicio >= 0 And ((posicio Mod 8) - 1 >= 0 And (posicio Mod 8) + 1 < 8) Then
-                            cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
-                            cuadres(posicio).Tag = "S"
-                            potAtrapar = True
-                        End If
-                    End If
-                    i += 1
-                End While
+                reis(peca)
             End If
             posicio = Array.IndexOf(cuadres, peca.Parent)
         End If
+    End Sub
+    Public Sub peons(peca As Object)
+        posicio = Array.IndexOf(cuadres, peca.Parent)
+        If peca.Tag = "blanc" Then
+            posicio += 8
+        End If
+        If peca.Tag = "negre" Then
+            posicio -= 8
+        End If
+        If posicio <= 64 And posicio >= 0 Then
+            If cuadres(posicio).Tag <> "O" Then
+                cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                cuadres(posicio).Tag = "S"
+            End If
+            posicio += 1
+            If (posicio Mod 8) < 8 And (posicio Mod 8) - 1 >= 0 Then
+                If cuadres(posicio).Tag = "O" Then
+                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                    potAtrapar = True
+                End If
+            End If
+            posicio -= 2
+            If (posicio Mod 8) >= 0 And (posicio Mod 8) + 1 < 8 Then
+                If cuadres(posicio).Tag = "O" Then
+                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                    potAtrapar = True
+                End If
+            End If
+        End If
+    End Sub
+    Public Sub torres(peca As Object)
+        posicio = Array.IndexOf(cuadres, peca.Parent)
+        Dim i As Int32 = (posicio Mod 8) - 1
+        Dim lloc As Int32 = posicio - 1
+        While i >= 0
+            cuadres(lloc).BorderStyle = BorderStyle.Fixed3D
+            cuadres(lloc).Tag = "S"
+            lloc -= 1
+            i -= 1
+        End While
+        i = (posicio Mod 8) + 1
+        lloc = posicio + 1
+        While i < 8
+            cuadres(lloc).BorderStyle = BorderStyle.Fixed3D
+            cuadres(lloc).Tag = "S"
+            lloc += 1
+            i += 1
+        End While
+        While posicio < 56
+            posicio += 8
+            cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+            cuadres(posicio).Tag = "S"
+            potAtrapar = True
+        End While
+        While posicio > 7
+            posicio -= 8
+            cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+            cuadres(posicio).Tag = "S"
+            potAtrapar = True
+        End While
+    End Sub
+    Public Sub cavalls(peca As Object)
+        posicio = Array.IndexOf(cuadres, peca.Parent)
+        Dim i As Int32 = 0
+        While i < 8
+            posicio = Array.IndexOf(cuadres, peca.Parent)
+            If posicio <= 64 And posicio >= 0 Then
+                If i = 0 Then
+                    posicio += 17
+                ElseIf i = 1 Then
+                    posicio += 15
+                ElseIf i = 2 Then
+                    posicio += 6
+                ElseIf i = 3 Then
+                    posicio += 10
+                ElseIf i = 4 Then
+                    posicio -= 17
+                ElseIf i = 5 Then
+                    posicio -= 15
+                ElseIf i = 6 Then
+                    posicio -= 6
+                ElseIf i = 7 Then
+                    posicio -= 10
+                End If
+                If posicio < 64 And posicio >= 0 And ((posicio Mod 8) - 1 >= 0 And (posicio Mod 8) + 1 < 8) Then
+                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                    cuadres(posicio).Tag = "S"
+                    potAtrapar = True
+                End If
+            End If
+            i += 1
+        End While
+    End Sub
+    Public Sub alfils(peca As Object)
+        posicio = Array.IndexOf(cuadres, peca.Parent)
+        Dim posicio2 As Int32 = posicio
+        Dim i As Int32 = (posicio Mod 8) + 1
+        While posicio < 56 Or posicio2 < 56
+            posicio += 7
+            i = (posicio Mod 8) + 1
+            posicio2 += 9
+            If posicio < 64 And i < 8 Then
+                cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                cuadres(posicio).Tag = "S"
+            Else
+                posicio = 67
+            End If
+            If posicio2 < 64 And (posicio2 Mod 8) - 1 >= 0 Then
+                cuadres(posicio2).BorderStyle = BorderStyle.Fixed3D
+                cuadres(posicio2).Tag = "S"
+            Else
+                posicio2 = 67
+            End If
+            potAtrapar = True
+        End While
+        posicio = Array.IndexOf(cuadres, peca.Parent)
+        posicio2 = posicio
+        i = (posicio Mod 8) - 1
+        While posicio > 0 Or posicio2 > 0
+            posicio -= 7
+            i = (posicio Mod 8) - 1
+            posicio2 -= 9
+            If posicio > 0 And i >= 0 Then
+                cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                cuadres(posicio).Tag = "S"
+            Else
+                posicio = -1
+            End If
+            If posicio2 > 0 And (posicio2 Mod 8) + 1 < 8 Then
+                cuadres(posicio2).BorderStyle = BorderStyle.Fixed3D
+                cuadres(posicio2).Tag = "S"
+            Else
+                posicio2 = -1
+            End If
+            potAtrapar = True
+        End While
+    End Sub
+    Public Sub reis(peca As Object)
+        posicio = Array.IndexOf(cuadres, peca.Parent)
+        Dim i As Int32 = 0
+        While i < 8
+            posicio = Array.IndexOf(cuadres, peca.Parent)
+            If posicio <= 64 And posicio >= 0 Then
+                If i = 0 Then
+                    posicio += 1
+                ElseIf i = 1 Then
+                    posicio += 7
+                ElseIf i = 2 Then
+                    posicio += 8
+                ElseIf i = 3 Then
+                    posicio += 9
+                ElseIf i = 4 Then
+                    posicio -= 1
+                ElseIf i = 5 Then
+                    posicio -= 7
+                ElseIf i = 6 Then
+                    posicio -= 8
+                ElseIf i = 7 Then
+                    posicio -= 9
+                End If
+                If posicio < 64 And posicio >= 0 And ((posicio Mod 8) - 1 >= 0 And (posicio Mod 8) + 1 < 8) Then
+                    cuadres(posicio).BorderStyle = BorderStyle.Fixed3D
+                    cuadres(posicio).Tag = "S"
+                    potAtrapar = True
+                End If
+            End If
+            i += 1
+        End While
     End Sub
 End Class
