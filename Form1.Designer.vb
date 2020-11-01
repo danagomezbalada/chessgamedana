@@ -271,7 +271,7 @@ Partial Class Form1
         Me.Label_Jug1.Location = New System.Drawing.Point(765, 454)
         Me.Label_Jug1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label_Jug1.Name = "Label_Jug1"
-        Me.Label_Jug1.Size = New System.Drawing.Size(74, 18)
+        Me.Label_Jug1.Size = New System.Drawing.Size(94, 24)
         Me.Label_Jug1.TabIndex = 75
         Me.Label_Jug1.Text = "Jugador 1"
         '
@@ -284,7 +284,7 @@ Partial Class Form1
         Me.Label_Jug2.Location = New System.Drawing.Point(990, 454)
         Me.Label_Jug2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label_Jug2.Name = "Label_Jug2"
-        Me.Label_Jug2.Size = New System.Drawing.Size(74, 18)
+        Me.Label_Jug2.Size = New System.Drawing.Size(94, 24)
         Me.Label_Jug2.TabIndex = 76
         Me.Label_Jug2.Text = "Jugador 2"
         '
@@ -295,7 +295,7 @@ Partial Class Form1
         Me.Captures1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Captures1.Name = "Captures1"
         Me.Captures1.ReadOnly = True
-        Me.Captures1.Size = New System.Drawing.Size(64, 35)
+        Me.Captures1.Size = New System.Drawing.Size(64, 41)
         Me.Captures1.TabIndex = 77
         '
         'Captures2
@@ -305,7 +305,7 @@ Partial Class Form1
         Me.Captures2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Captures2.Name = "Captures2"
         Me.Captures2.ReadOnly = True
-        Me.Captures2.Size = New System.Drawing.Size(64, 35)
+        Me.Captures2.Size = New System.Drawing.Size(64, 41)
         Me.Captures2.TabIndex = 78
         '
         'LabelCaptures
@@ -316,7 +316,7 @@ Partial Class Form1
         Me.LabelCaptures.Location = New System.Drawing.Point(875, 410)
         Me.LabelCaptures.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LabelCaptures.Name = "LabelCaptures"
-        Me.LabelCaptures.Size = New System.Drawing.Size(74, 20)
+        Me.LabelCaptures.Size = New System.Drawing.Size(92, 25)
         Me.LabelCaptures.TabIndex = 79
         Me.LabelCaptures.Text = "Captures"
         '
@@ -1323,7 +1323,7 @@ Partial Class Form1
         Me.ReiBlanc.BackColor = System.Drawing.Color.Transparent
         Me.ReiBlanc.Image = CType(resources.GetObject("ReiBlanc.Image"), System.Drawing.Image)
         Me.ReiBlanc.InitialImage = Nothing
-        Me.ReiBlanc.Location = New System.Drawing.Point(348, 552)
+        Me.ReiBlanc.Location = New System.Drawing.Point(352, 552)
         Me.ReiBlanc.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.ReiBlanc.Name = "ReiBlanc"
         Me.ReiBlanc.Size = New System.Drawing.Size(70, 72)
@@ -1351,7 +1351,7 @@ Partial Class Form1
         Me.CavallBlanc1.BackColor = System.Drawing.Color.Transparent
         Me.CavallBlanc1.Image = CType(resources.GetObject("CavallBlanc1.Image"), System.Drawing.Image)
         Me.CavallBlanc1.InitialImage = Nothing
-        Me.CavallBlanc1.Location = New System.Drawing.Point(503, 552)
+        Me.CavallBlanc1.Location = New System.Drawing.Point(503, 555)
         Me.CavallBlanc1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.CavallBlanc1.Name = "CavallBlanc1"
         Me.CavallBlanc1.Size = New System.Drawing.Size(70, 72)
